@@ -1,0 +1,26 @@
+,definition
+pi_ipca,"IPCA quarterly inflation, log-% (100*sum of monthly log changes)"
+pi_livres,"IPCA free prices, quarterly inflation, log-%"
+pi_monit,"IPCA administered prices, quarterly inflation, log-%"
+pi_ipca_sa / pi_livres_sa / pi_monit_sa,"seasonally adjusted versions (STL, robust, period 4)"
+w_livres,"implicit weight of free prices in the IPCA (from the aggregation identity, rolling median)"
+pi_e_12m,"Focus median expectation of IPCA over the next 12 months, smoothed (% p.a.), quarterly mean of daily data"
+pi_e_12m_raw,"same, non-smoothed"
+pi_e_q,pi_e_12m converted to a quarterly log rate: 100*log(1+pi_e/100)/4
+i_e_12m,"Focus-implied expected average Selic over the next 12 months (% p.a.), from per-meeting expectations (monthly expectations before Nov/2004)"
+selic,"Selic target, quarterly average of daily values (% p.a.)"
+r_focus,ex-ante real rate i_e_12m - pi_e_12m (% p.a.)
+rr_trend,HP(1600) trend of r_focus (the model's rr_trend)
+fpib,"HP(1600) cycle of 100*log(GDP SA, IBGE chained index)"
+fnuci,FGV capacity utilisation (SA) minus its 2003Q4-2019Q4 mean (pp)
+femp,-(unemployment rate SA - 2003Q4-2019Q4 mean); PNADC spliced backwards with PME changes
+fcaged,"HP(1600) cycle of 100*log(stock of formal jobs, Caged)"
+rp_tilde,"cyclically-adjusted central-government primary surplus (4-quarter, % GDP, net of one-offs) minus HP trend"
+h_star,"trade-weighted HP cycle of partners' real GDP (OECD QNA), %"
+i_star,"Fed funds effective rate (OECD MEI), quarterly mean, % p.a."
+embi_bps / cds_proxy,EMBI+ Brazil (bps; /100 in % p.a.) as the risk-premium proxy
+ptax / de / de_hat,BRL/USD quarterly mean; 100*dlog; deviation from PPP drift (meta-2)/4
+pi_icbr_hat (and components),100*dlog(IC-Br) minus meta/4
+oni / clima2 / clim_el / clim_la,"ONI anomaly (quarter season); squared; Phillips-curve climate terms (3-quarter mean minus previous 3-quarter mean, split by sign)"
+meta / meta_12m,calendar-year inflation target; month-weighted target for the next 12 months
+d_crise2008 / d_crise2020 / d_phillips_hv,high-variance shock periods used in estimation

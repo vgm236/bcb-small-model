@@ -1,0 +1,6 @@
+{
+ "source": "BCB SGS",
+ "code": 4380,
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4380/dados?formato=json&dataInicial=01/01/1995&dataFinal=29/10/2026",
+ "downloaded_at": "2026-10-29T22:56:41"
+}

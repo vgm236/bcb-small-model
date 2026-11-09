@@ -1,0 +1,6 @@
+{
+ "source": "BCB SGS",
+ "code": 1,
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/01/2023&dataFinal=30/10/2026",
+ "downloaded_at": "2026-10-30T05:23:29"
+}

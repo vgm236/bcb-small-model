@@ -1,0 +1,691 @@
+Atualização	das	medidas	de	hiato	do	produto	no	Brasil
+
+São atualizadas as estimativas de hiato do produto usando diferentes metodologias, agrupadas em métodos 
+univariados e multivariados. Para o primeiro trimestre de 2025, todas as estimativas são de hiato no campo 
+positivo e, em geral, acima dos valores estimados para o mesmo período do ano anterior.
+
+O hiato do produto é uma variável fundamental para a condução da política monetária, definido como sendo 
+a diferença entre os níveis reais do produto efetivo e do produto potencial1 (nível que não gera pressões 
+inflacionárias ou desinflacionárias na economia). Tanto o produto potencial como o hiato do produto são 
+variáveis não observáveis e, portanto, estimativas precisam ser obtidas por meio de modelos econométricos 
+com diversas abordagens, o que deixa clara a elevada incerteza na mensuração dessas variáveis.
+
+O Banco Central do Brasil (BC) estima o hiato do produto utilizando diferentes metodologias a fim de obter 
+uma melhor dimensão da incerteza envolvida. Os resultados são passíveis de revisão à medida que novas 
+informações estejam disponíveis, por exemplo, por meio da alteração do tamanho da amostra ou mesmo a 
+revisão de dados passados. Este boxe apresenta uma atualização das diversas estimativas de hiato do produto 
+para a economia brasileira utilizando as metodologias previamente aplicadas e classificadas em dois grupos:2
+
+Grupo I – Hiatos univariados estatísticos
+
+i.  Tendência quadrática com quebras;
+
+ii.  Tendência não-paramétrica;
+
+iii.  Tendência HP (Hodrick-Prescott);
+
+iv.  Tendência ℓ₁;
+
+v.  Tendência HP modificada;
+
+vi.  Filtro do tipo passa-banda (band-pass) – aproximação de Christiano e Fitzgerald; e
+
+vii.  Beveridge e Nelson – variante de Kamber et al. (2018).
+
+Grupo II – Hiatos multivariados
+
+i.  Função de produção com combinação simples;
+
+ii.  Função de produção com abordagem de Areosa (2008); 
+
+iii.  Função de produção baseada no modelo do Escritório de Orçamento do Congresso dos EUA;
+
+1/  Ressalta-se que, em modelos estruturais novo-keynesianos de equilíbrio geral, o produto potencial, tipicamente nesse arcabouço, é 
+o produto que prevaleceria em uma situação contrafactual de ausência de fricções nominais e de choques monetários e de markups. 
+Diferentes modelos com diferentes tipos de fricção e choques podem ser aplicados, o que torna difícil um consenso sobre o produto 
+potencial.
+
+2/  Para detalhes metodológicos, ver o boxe Medidas de hiato do produto no Brasil, do Relatório de Inflação de junho de 2024.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  75
+
+iv.  Estimação baseada em modelo de Jarocinski e Lenza (2018); e
+
+v.  Estimação baseada em componentes principais.
+
+Hiatos	univariados	estatísticos
+
+As  metodologias  univariadas  realizam  uma  decomposição  tendência-ciclo  e,  em  geral,  assumem  que  a 
+tendência não é correlacionada com o ciclo. O hiato é então a medida cíclica obtida pela diferença entre o 
+nível da variável de atividade observada e sua tendência estimada. A variável de atividade observada é o 
+logaritmo da série trimestral dessazonalizada do Produto Interno Bruto (PIB) a preços de mercado, calculada 
+pelo Instituto Brasileiro de Geografia e Estatística (IBGE).
+
+Com o objetivo de reduzir o problema usual de final de amostra, a série histórica do PIB, cujo último dado 
+realizado corresponde ao primeiro trimestre de 2025, foi estendida até o quarto trimestre de 2029 utilizando 
+a mediana das expectativas da pesquisa Focus obtida em 13.6.2025.3 Os resultados são apresentados no 
+Gráfico 1. Em geral, os hiatos são positivamente correlacionados e os níveis estimados cresceram nos últimos 
+trimestres.
+
+Gráfico 1 – Hiatos univariados estatísticos do PIB
+
+%
+8
+6
+4
+2
+0
+-2
+-4
+-6
+-8
+-10
+-12
+
+I
+1996
+
+I
+2000
+
+I
+2004
+
+I
+2008
+
+I
+2012
+
+I
+2016
+
+I
+2020
+
+I
+2024
+
+Tendência quadrática
+Hodrick-Prescott
+Hodrick-Prescott modificado
+Beveridge-Nelson
+
+Tendência não paramétrica
+Tendência ℓ
+Band-pass
+
+₁
+
+Nota: Dados do gráfico: 1996T1–2025T1. A estimação foi realizada estendo a 
+amostra  com as expectativas da pesquisa Focus até 2029T4.
+
+Hiatos	multivariados
+
+O grupo de hiatos multivariados envolve diferentes metodologias e abordagens, que fazem uso da combinação 
+de variáveis observáveis, de componentes não observados filtrados ou mesmo de relações macroeconômicas, 
+como a curva de Phillips, para melhor identificar o grau de aquecimento da economia.
+
+As  três  primeiras  estimativas,  função  de  produção  com  combinação  simples,  função  de  produção  com 
+abordagem de Areosa (2008) e função de produção baseada no modelo do CBO4, envolvem a utilização de 
+uma função de produção que combina capital e trabalho por meio de uma tecnologia Cobb-Douglas. De forma 
+geral, essas metodologias captam possíveis pressões inflacionárias a partir de estimativas de pressão nos 
+mercados de fatores de produção. A abordagem de Jarocinski e Lenza (2018) é uma aplicação para o Brasil 
+do modelo desenvolvido pelos autores, utilizando fator dinâmico bayesiano que faz com que as estimativas 
+de hiato do produto sejam correlacionadas com o comportamento da inflação. Por fim, a estimação baseada 
+em componentes principais envolve a obtenção de uma série comum que explique simultaneamente a maior 
+parte das variações nas dinâmicas cíclicas de atividade e mercado e trabalho.
+
+3/  Devido à disponibilidade de dados, utiliza-se, a partir do segundo trimestre de 2027, as projeções anuais para se chegar aos valores 
+
+trimestrais. Nessa estimativa, as quebras selecionadas para a tendência quadrática foram 2008T4, 2014T2 e 2020T1. 
+
+4/  Modelo utilizado pelo Escritório de Orçamento do Congresso dos Estados Unidos (Congressional Budget Office – CBO).
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  76
+
+ 
+ 
+ 
+ 
+Os hiatos estimados pelos métodos multivariados são apresentados no Gráfico 2. Da mesma forma que no 
+caso dos hiatos univariados, nota-se correlação contemporânea positiva. Observa-se também considerável 
+dispersão  entre  as  medidas  de  hiato  em  alguns  períodos,  evidenciando  seu  elevado  grau  de  incerteza, 
+especialmente ao final da amostra, onde o comportamento é bastante heterogêneo entre as medidas.
+
+Gráfico 2 – Hiatos multivariados 
+
+%
+
+8
+6
+4
+2
+0
+-2
+-4
+-6
+-8
+-10
+-12
+-14
+
+I
+2001
+
+I
+2005
+
+I
+2009
+
+I
+2013
+
+I
+2017
+
+I
+2021
+
+I
+2025
+
+Função de Produção
+CBO
+Componentes principais
+
+Nota: Dados do gráfico: 2001T1–2025T1.
+
+Areosa
+Jarocinski & Lenza
+
+Conjunto de medidas
+
+O coeficiente de correlação contemporânea entre as diferentes medidas de hiato é mostrado na Tabela 1. 
+Em geral, destaca-se elevada correlação entre as medidas.
+
+Tabela 1 – Correlações entre as medidas de hiato do produto
+
+Amostra 2003T2–2025T1.
+
+ Tendência 
+quadrática
+
+ Tendência 
+não 
+paramétrica
+
+ Hodrick-
+Prescott
+
+ Tendência 
+ℓ
+
+ Tendência quadrática
+
+ Tendência não paramétrica
+
+ Hodrick-Prescott
+
+ Tendência ℓ
+
+ Hodrick-Prescott modificado
+
+₁
+
+ Band-pass
+
+ Beveridge-Nelson
+
+ Função de Produção
+
+ Areosa
+
+ CBO
+
+ Jarocinski & Lenza
+
+ Componentes principais
+
+1,00
+
+0,48
+
+0,76
+
+0,68
+
+0,78
+
+0,52
+
+0,53
+
+0,48
+
+0,58
+
+0,26
+
+0,47
+
+0,44
+
+1,00
+
+0,80
+
+0,91
+
+0,49
+
+0,47
+
+0,39
+
+0,85
+
+0,70
+
+0,85
+
+0,83
+
+0,87
+
+1,00
+
+0,94
+
+0,79
+
+0,73
+
+0,52
+
+0,82
+
+0,90
+
+0,60
+
+0,70
+
+0,82
+
+ Hodrick-
+Prescott 
+modificado
+
+ Band-pass
+
+ Beveridge-
+Nelson
+
+ Função de 
+Produção
+
+ Areosa
+
+ CBO  Jarocinski & 
+
+Lenza
+
+ Componentes 
+principais
+
+1,00
+
+0,35
+
+0,43
+
+0,54
+
+0,64
+
+0,21
+
+0,46
+
+0,49
+
+1,00
+
+0,44
+
+0,48
+
+0,68
+
+0,40
+
+0,39
+
+0,51
+
+1,00
+
+0,44
+
+0,40
+
+0,51
+
+0,68
+
+0,49
+
+1,00
+
+0,88
+
+0,82
+
+0,87
+
+0,96
+
+1,00
+
+0,56
+
+0,69
+
+0,86
+
+1,00
+
+0,89
+
+0,87
+
+1,00
+
+0,90
+
+1,00
+
+₁
+
+1,00
+
+0,68
+
+0,63
+
+0,52
+
+0,88
+
+0,85
+
+0,76
+
+0,81
+
+0,89
+
+A Tabela 2 mostra os níveis dos hiatos em 2024 e no primeiro trimestre de 2025 para todas as metodologias 
+abordadas. Considerando o primeiro trimestre de 2025, verifica-se que o intervalo estimado está entre 0,14% 
+e 5,03%, com média de 1,38%, mediana de 1,18% e percentis de 25 e 75 em 0,44% e 1,86%, respectivamente. 
+Portanto, todas as estimativas são de um hiato no campo positivo. Na comparação com o primeiro trimestre 
+de 2024, a maioria das estimativas apresentou aumento.
+
+O Questionário Pré-Copom (QPC), enviado aos participantes do Sistema Expectativas de Mercado antes de 
+cada reunião do Comitê de Política Monetária (Copom), inclui periodicamente questão sobre as estimativas 
+para o hiato do produto dos participantes. No QPC do Copom de junho de 2025, a mediana da estimativa do 
+hiato para o primeiro trimestre de 2025 foi 1,2%, com percentis de 25 e 75 em 0,9% e 1,8%, respectivamente.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  77
+
+ 
+ 
+ 
+ 
+   
+ 
+Tabela 2 – Níveis do hiato do produto de 2024T1 a 2025T1 por tipo de metodologia
+
+ Hiatos univariados estatísticos
+
+     Tendência quadrática
+
+     Tendência não paramétrica
+
+     Hodrick-Prescott
+
+     Tendência ℓ
+
+     Hodrick-Prescott modificado
+₁
+
+     Band-pass
+
+     Beveridge-Nelson
+
+ Hiatos multivariados
+
+     Função de Produção
+
+     Areosa
+
+     CBO
+
+     Jarocinski & Lenza
+
+     Componentes principais
+
+ Sumário 
+
+   Média
+
+   Mediana
+
+   Percentil 25
+
+   Percentil 75
+
+ 2024
+
+ T1
+
+-0,50
+
+-0,26
+
+0,14
+
+0,42
+
+-0,60
+
+0,05
+
+-0,01
+
+1,67
+
+0,72
+
+3,13
+
+1,71
+
+1,00
+
+0,62
+
+0,28
+
+-0,07
+
+1,17
+
+ T2
+
+ T3
+
+ T4
+
+%
+
+ 2025
+
+ T1
+
+0,40
+
+0,84
+
+1,08
+
+1,46
+
+0,27
+
+0,03
+
+0,60
+
+1,96
+
+0,85
+
+3,67
+
+2,41
+
+1,44
+
+1,25
+
+0,97
+
+0,55
+
+1,58
+
+0,49
+
+1,11
+
+1,21
+
+1,66
+
+0,36
+
+0,08
+
+0,64
+
+2,21
+
+0,83
+
+4,22
+
+2,73
+
+1,63
+
+1,43
+
+1,16
+
+0,60
+
+1,80
+
+0,08
+
+0,86
+
+0,81
+
+1,33
+
+-0,02
+
+0,20
+
+0,32
+
+1,93
+
+0,34
+
+4,82
+
+2,18
+
+1,15
+
+1,17
+
+0,83
+
+0,29
+
+1,48
+
+0,47
+
+1,39
+
+1,23
+
+1,80
+
+0,39
+
+0,33
+
+0,46
+
+2,05
+
+0,14
+
+5,03
+
+2,16
+
+1,14
+
+1,38
+
+1,18
+
+0,44
+
+1,86
+
+Considerações	finais
+
+Este boxe apresentou atualização das estimativas de hiatos do produto utilizando diferentes metodologias, 
+anteriormente publicadas em boxe do Relatório de Inflação de junho de 2024. O BC acompanha de maneira 
+contínua diferentes medidas de hiato e tem feito esforços contínuos no sentido de aprimorar as metodologias 
+empregadas. Este boxe reforça a contribuição para a transparência que permeia os processos decisórios do BC.
+
+Referências	bibliográficas
+
+AREOSA, M. (2008). Combining Hodrick-Prescott Filtering with a Production Function Approach to Estimate 
+Output Gap. Banco Central do Brasil, Working Paper 172. 
+
+JAROCINSKI, M.; e LENZA, M. (2018). “An inflation-predicting measure of the output gap in the euro area”. 
+Journal of Money, Credit and Banking, 50(6):1189-1224.
+
+KAMBER,  G.;  MORLEY;  J;  e  WONG,  B.  (2018).  “Intuitive  and  reliable  estimates  of  the  output  gap  from  a 
+Beveridge-Nelson filter”. Review of Economics and Statistics, 100(3): 550-566
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  78
+
+ 
+ 
+ 
+ 
+ 
+

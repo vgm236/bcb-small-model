@@ -1,0 +1,50 @@
+variant 'input: Copom administered' done (83s)
+variant 'model: BCB calibration' done (104s)
+variant 'model: estimated parameters' done (95s)
+variant 'model: BCB calibration, handover after 4 quarters' done (84s)
+variant 'model: estimated, handover after 4 quarters' done (89s)
+                                                                    mean_diff_adm  mae_adm  mean_diff_ipca  mae_ipca  mean_diff_livres  mae_livres
+variant                                           type                                                                                            
+input: Copom administered                         current year               0.00     0.00           -0.14      0.35             -0.17        0.45
+                                                  next year                 -0.00     0.00            0.02      0.13              0.03        0.16
+                                                  relevant horizon          -0.00     0.00           -0.16      0.22             -0.23        0.29
+model: BCB calibration                            current year              -0.39     0.75           -0.25      0.27             -0.18        0.45
+                                                  next year                 -1.50     1.97           -0.52      0.81             -0.16        0.39
+                                                  relevant horizon          -0.69     1.14           -0.50      0.67             -0.45        0.56
+model: BCB calibration, handover after 4 quarters current year               0.00     0.00           -0.15      0.35             -0.18        0.46
+                                                  next year                 -0.20     0.20           -0.02      0.15              0.05        0.21
+                                                  relevant horizon          -0.09     0.32           -0.20      0.29             -0.25        0.37
+model: estimated parameters                       current year              -1.09     1.09           -0.44      0.47             -0.19        0.47
+                                                  next year                  0.57     0.57            0.20      0.26              0.08        0.21
+                                                  relevant horizon           0.46     0.65           -0.07      0.40             -0.27        0.40
+model: estimated, handover after 4 quarters       current year               0.00     0.00           -0.15      0.35             -0.18        0.46
+                                                  next year                 -0.05     0.07            0.06      0.19              0.11        0.25
+                                                  relevant horizon           0.36     0.56           -0.04      0.37             -0.20        0.39
+variant         input: Copom administered  model: BCB calibration  model: BCB calibration, handover after 4 quarters  model: estimated parameters  model: estimated, handover after 4 quarters  Copom
+meeting target                                                                                                                                                                                       
+272     2025                          4.4                    3.10                                               4.40                         3.24                                         4.40    4.4
+        2026                          4.0                    2.73                                               3.65                         4.88                                         3.82    4.0
+        2027Q1                        3.9                    3.02                                               3.64                         4.57                                         4.44    3.9
+273     2025                          4.3                    1.76                                               4.30                         1.88                                         4.30    4.3
+        2026                          3.8                    0.05                                               3.36                         3.95                                         3.89    3.8
+        2027Q1                        3.8                    0.95                                               3.28                         4.26                                         4.58    3.8
+274     2025                          5.0                    5.00                                               5.00                         5.00                                         5.00    5.0
+        2026                          3.4                   -0.22                                               3.40                         3.43                                         3.40    3.4
+        2027Q2                        3.5                    1.99                                               3.64                         4.37                                         4.26    3.5
+275     2025                          5.3                    5.30                                               5.30                         5.30                                         5.30    5.3
+        2026                          3.2                    1.50                                               3.20                         4.16                                         3.20    3.2
+        2027Q2                        3.4                    2.74                                               3.55                         4.18                                         3.96    3.4
+276     2026                          3.0                    2.48                                               3.00                         2.99                                         3.00    3.0
+        2027Q3                        3.3                    2.64                                               3.26                         3.27                                         2.98    3.3
+277     2026                          4.3                    5.67                                               4.30                         3.72                                         4.30    4.3
+        2027Q3                        3.2                    3.62                                               3.65                         2.63                                         3.32    3.2
+278     2026                          4.8                    4.57                                               4.80                         2.43                                         4.80    4.8
+        2027Q4                        3.6                    2.68                                               3.15                         3.55                                         3.23    3.6
+279     2026                          4.7                    5.14                                               4.70                         2.59                                         4.70    4.7
+        2027Q4                        3.9                    2.24                                               3.20                         3.58                                         3.56    3.9
+280     2026                          4.9                    4.51                                               4.90                         4.00                                         4.90    4.9
+        2027                          3.5                    3.42                                               3.25                         4.39                                         3.34    3.5
+        2028Q1                        3.5                    3.87                                               3.38                         4.85                                         4.08    3.5
+281     2026                          5.3                    4.60                                               5.30                         4.00                                         5.30    5.3
+        2027                          3.5                    4.88                                               3.33                         4.02                                         3.48    3.5
+        2028Q1                        3.2                    4.62                                               3.59                         4.65                                         4.43    3.2

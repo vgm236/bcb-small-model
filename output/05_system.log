@@ -1,0 +1,108 @@
+calibration: {'sd_rrIS': 0.15, 'sd_rrTAY': 0.15, 'crisis_mult': 20.0, 'hv_mult': 3.0, 'w': 0.7299384751780631}
+exogenous processes: {"piA": {"rho": 0.201, "c": 1.166, "sd": 1.835}, "pistar_usd": {"rho": 0.374, "c": -0.097, "sd": 6.686}, "hstar": {"rho": 0.711, "c": 0.02, "sd": 1.089}, "rp": {"rho": 0.822, "c": -0.0, "sd": 0.88}, "el": {"rho": 0.738, "c": 2.849, "sd": 70.518}, "la": {"rho": 0.691, "c": -0.307, "sd": 40.554}, "f": {"rho": 0.968, "c": 0.143, "sd": 0.495}, "meta": {"rho": 1.0, "c": 0.0, "sd": 0.055}, "rrtrend": {"rho": 1.0, "c": 0.0, "sd": 0.176}}
+log posterior at start: -2604.56
+  start 0: log posterior -2634.766
+mode found in 506s (9725 evaluations); log posterior -2634.77
+a1L        0.2708
+a1I        0.2366
+a2         0.0120
+a3         0.0185
+a4         0.1122
+a5         0.0013
+a6         0.0028
+b1         0.7774
+b2         0.4107
+b3         0.0298
+b4         0.2212
+b5         0.8619
+th1        1.3456
+th2       -0.4906
+th3        2.2010
+phi1       0.6949
+phi2       0.1569
+phi3       0.0238
+delta      1.8528
+g_nuci     1.9697
+g_emp      1.1681
+g_caged    0.8278
+sig_h      1.1329
+sd_piL     0.4455
+sd_pie     0.2354
+sd_i       0.4991
+sd_e       6.5489
+sd_h       0.1870
+sd_ie      0.4735
+dtype: float64
+  draw 3000/30000  acceptance 0.260  scale 0.448  logpost -2645.87
+  draw 6000/30000  acceptance 0.248  scale 0.459  logpost -2650.83
+  draw 9000/30000  acceptance 0.247  scale 0.444  logpost -2654.98
+  draw 12000/30000  acceptance 0.250  scale 0.443  logpost -2648.41
+  draw 15000/30000  acceptance 0.249  scale 0.443  logpost -2652.56
+  draw 18000/30000  acceptance 0.249  scale 0.443  logpost -2650.48
+  draw 21000/30000  acceptance 0.249  scale 0.443  logpost -2661.82
+  draw 24000/30000  acceptance 0.252  scale 0.443  logpost -2647.93
+  draw 27000/30000  acceptance 0.253  scale 0.443  logpost -2649.19
+  draw 30000/30000  acceptance 0.253  scale 0.443  logpost -2649.17
+MCMC done in 1581s
+           mode    mean  median      sd     q05     q95
+param                                                  
+a1L      0.2708  0.2371  0.2462  0.1300  0.0054  0.4389
+a1I      0.2366  0.2292  0.2140  0.1293  0.0507  0.4651
+a2       0.0120  0.0121  0.0108  0.0072  0.0028  0.0264
+a3       0.0185  0.0165  0.0161  0.0077  0.0048  0.0295
+a4       0.1122  0.1136  0.1097  0.0332  0.0646  0.1736
+a5       0.0013  0.0011  0.0011  0.0005  0.0004  0.0019
+a6       0.0028  0.0026  0.0026  0.0009  0.0010  0.0041
+b1       0.7774  0.8050  0.8128  0.0864  0.6499  0.9321
+b2       0.4107  0.4381  0.4307  0.1684  0.1730  0.7410
+b3       0.0298  0.0297  0.0297  0.0019  0.0266  0.0330
+b4       0.2212  0.1838  0.1774  0.0928  0.0410  0.3469
+b5       0.8619  0.8484  0.8584  0.0804  0.7026  0.9573
+th1      1.3456  1.3529  1.3537  0.0428  1.2811  1.4206
+th2     -0.4906 -0.4981 -0.4998  0.0367 -0.5552 -0.4352
+th3      2.2010  2.1892  2.1861  0.3144  1.6665  2.6948
+phi1     0.6949  0.7133  0.7131  0.0419  0.6438  0.7820
+phi2     0.1569  0.1539  0.1530  0.0289  0.1092  0.2018
+phi3     0.0238  0.0173  0.0144  0.0143  0.0008  0.0443
+delta    1.8528  1.6663  1.6277  0.6811  0.6601  2.8837
+g_nuci   1.9697  2.0012  1.9905  0.1640  1.7447  2.2903
+g_emp    1.1681  1.1787  1.1744  0.0931  1.0324  1.3418
+g_caged  0.8278  0.8370  0.8334  0.0686  0.7310  0.9596
+sig_h    1.1329  1.1361  1.1323  0.0691  1.0255  1.2552
+sd_piL   0.4455  0.4566  0.4525  0.0386  0.3995  0.5272
+sd_pie   0.2354  0.2464  0.2446  0.0211  0.2140  0.2846
+sd_i     0.4991  0.5033  0.5006  0.0436  0.4374  0.5800
+sd_e     6.5489  6.6308  6.5915  0.5260  5.8309  7.5581
+sd_h     0.1870  0.1915  0.1878  0.0366  0.1380  0.2567
+sd_ie    0.4735  0.4892  0.4859  0.0469  0.4184  0.5715
+         BCB mode  BCB 5%  ...  mode inside BCB band  BCB mode inside our band
+param                      ...                                                
+a1L        0.2400  0.0200  ...                  True                      True
+a1I        0.3800  0.1300  ...                  True                      True
+a2         0.0230  0.0060  ...                  True                      True
+a3         0.0110  0.0000  ...                  True                      True
+a4         0.1200  0.0720  ...                  True                      True
+a5         0.0012  0.0004  ...                  True                      True
+a6         0.0007  0.0000  ...                 False                     False
+b1         0.8500  0.7000  ...                  True                      True
+b2         0.4400  0.2100  ...                  True                      True
+b3         0.0300  0.0270  ...                  True                      True
+b4         0.0540  0.0000  ...                  True                      True
+b5         0.8400  0.5900  ...                  True                      True
+th1        1.4800  1.4100  ...                 False                     False
+th2       -0.5800 -0.6300  ...                 False                     False
+th3        2.0300  1.4700  ...                  True                      True
+phi1       0.7500  0.6800  ...                  True                      True
+phi2       0.1100  0.0600  ...                 False                      True
+phi3       0.0210  0.0000  ...                  True                      True
+delta      1.9000  0.7700  ...                  True                      True
+g_nuci     1.8700  1.6500  ...                  True                      True
+g_emp      1.1000  0.9600  ...                  True                      True
+g_caged    0.6900  0.6100  ...                 False                     False
+sig_h      1.0900  0.9800  ...                  True                      True
+
+[23 rows x 9 columns]
+Selic +1pp for 4 quarters: IPCA 4q (free-price channel only) min -0.142 pp at q4; with administered add-on -0.208 pp at q3; free prices 4q min -0.194; gap min -0.22  [BCB: IPCA -0.27 at q4]
+10% depreciation: free prices 4q max 0.492 pp at q3; IPCA 4q (free only) 0.359; with administered add-on 0.805  [BCB: free 0.72, IPCA 0.96]
++1pp gap shock: IPCA 4q max 0.358 pp at q3  [BCB: 0.49]
+saved outputs to C:\Users\19175\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\35c952b8-b7a4-4c61-9e4e-3aca72c45c91\f58d4eea-f1cc-4111-8fc9-5f8d8ba64fb5\scratch-2026-10-30-b60809\output

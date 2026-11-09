@@ -1,0 +1,14 @@
+# Pinned environment used for the project (Python 3.8; the notebooks also run on newer Python with recent versions
+# of these packages). Install with:  python -m pip install -r requirements.txt
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+statsmodels==0.14.1
+matplotlib==3.7.5
+requests>=2.31
+xlrd>=2.0
+openpyxl>=3.1
+pdfminer.six>=20221105
+pillow>=9.5
+streamlit==1.40.1
+plotly==5.24.1

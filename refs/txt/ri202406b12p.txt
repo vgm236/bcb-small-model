@@ -1,0 +1,1748 @@
+Atualização dos modelos semiestruturais de pequeno porte
+
+Os modelos de projeção do Banco Central do Brasil (BC) constituem importante insumo para auxiliar o processo 
+de tomada de decisão do Comitê de Política Monetária (Copom)1 e estão em contínuo aprimoramento. Em linha 
+com o procedimento de aperfeiçoar a comunicação e transparência do BC, este boxe atualiza as informações 
+sobre os modelos semiestruturais de pequeno porte, tanto na versão agregada como na desagregada.2
+
+Em  relação  às  versões  anteriores,  as  versões  revisadas  tiveram  seus  parâmetros  reestimados  utilizando 
+uma amostra mais atualizada, que se estende até o final de 2023, abarcando assim o período da pandemia 
+da Covid‑19. Isso exigiu alguns cuidados metodológicos durante a estimação e pequenas modificações nas 
+especificações de algumas equações, descritos a seguir. Em geral, os parâmetros estimados tiveram pouca 
+alteração em relação às versões anteriores.
+
+Especificação das principais equações dos modelos
+
+O BC utiliza diversos modelos para subsidiar as análises e decisões do Copom, dentre os quais dois modelos 
+semiestruturais de pequeno porte, uma versão agregada e outra desagregada. Essas versões têm praticamente 
+o mesmo conjunto de equações, diferindo apenas na representação da inflação de preços livres. No modelo 
+agregado,  a  representação  é  dada  por  uma  única  equação  para  a  inflação  de  preços  livres,  enquanto  no 
+modelo desagregado são três equações, uma para cada um dos seguintes grupos: serviços, bens industriais 
+e alimentação no domicílio.
+
+Os modelos mantêm a abordagem de focar nas principais relações econômicas relevantes para análise da 
+política monetária. A sua estrutura básica é definida pelas seguintes equações comportamentais: (i) curva(s) 
+de  Phillips,  que  determina(m)  a  dinâmica  da  inflação  de  preços  livres  (uma  no  modelo  agregado,  três  no 
+desagregado); (ii) curva IS, que determina a dinâmica do hiato do produto; (iii) regra de Taylor, que representa 
+a função de reação de um banco central; (iv) equação de paridade descoberta de juros (Uncovered Interest 
+Parity – UIP, na sigla em inglês), que descreve a relação entre a variação da taxa de câmbio e o diferencial 
+de juros internos e externos e um prêmio de risco; e (v) curva de expectativas de inflação, as quais reagem 
+endogenamente no modelo.3 As séries do modelo têm periodicidade trimestral e, geralmente, as variáveis 
+são representadas em logaritmo.
+
+Curvas de Phillips
+
+No modelo agregado, a única curva de Phillips é representada pela equação a seguir, que determina a dinâmica 
+da inflação de preços livres como função da inércia inflacionária, das expectativas de inflação, da inflação 
+externa, da taxa de câmbio, do hiato do produto doméstico e das anomalias climáticas:
+
+1/  Ver o boxe Sistema de análise e projeções do BC, do Relatório de Inflação de março de 2023.
+2/  Ver os boxes Novo modelo desagregado de pequeno porte, do Relatório de Inflação de março de 2021, e Revisão do modelo agregado 
+
+de pequeno porte, do Relatório de Inflação de dezembro de 2021
+
+3/  Ressalta‑se que os modelos utilizados para preços administrados seguem basicamente os apresentados no boxe Reformulação dos 
+modelos de projeção de médio prazo dos preços administrados, no Relatório de Inflação de setembro de 2017. Na elaboração de 
+projeções, utilizam‑se também as projeções de especialistas.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  97
+
+representa a inflação trimestral do IPCA com ajuste sazonal; 
+
+ representa a inflação trimestral de preços livres do Índice Nacional de Preços ao Consumidor 
+
+onde 
+Amplo (IPCA) com ajuste sazonal; 
+é a expectativa em t, apurada pela pesquisa Focus, acerca da inflação esperada para quatro trimestres à 
+frente (média ao longo do trimestre das expectativas para doze meses à frente); 
+ é a inflação trimestral 
+importada  de  commodities,  medida  pelo  desvio  da  variação  do  Índice  de  Commodities  –  Brasil  (IC‑Br)  em 
+  é  a  inflação  trimestral  importada  de  commodities 
+reais  em  relação  à  meta  de  inflação  doméstica4; 
+agrícolas, medida pelo desvio do IC‑Br Agropecuária em relação à meta de inflação doméstica; 
+ é a 
+inflação trimestral importada de commodities metálicas, medida pelo desvio do IC‑Br Metal em relação à 
+ é a inflação trimestral importada de commodities energéticas, medida 
+meta de inflação doméstica; 
+pelo desvio do IC‑Br Energia em relação à meta de inflação doméstica; 
+ são os respectivos pesos 
+das inflações setoriais importadas, tais que 
+ é o desvio da variação trimestral da taxa de 
+câmbio nominal (R$/US$ ) em relação à sua variação de longo prazo prevista pela teoria da paridade do poder 
+de compra5; 
+ representa a variável que captura choques de oferta 
+provenientes de anomalias climáticas6; 
+ é uma dummy que assume valor 1 quando a anomalia climática 
+é positiva (eventos El Niño); 
+ é uma dummy que assume valor 1 quando a anomalia climática é negativa 
+ é o termo de erro. A única mudança de especificação dessa equação em relação ao 
+(eventos La Niña); e 
+modelo do Relatório de Inflação de 2021 é que a variação do câmbio aparece agora com defasagem de um 
+trimestre em vez de dois trimestres.
+
+ é o hiato do produto doméstico; 
+
+=1; 
+
+e 
+
++
+
++
+
+, 
+
+No modelo desagregado, as curvas de Phillips setoriais para as inflações de bens industriais, alimentação no 
+domicílio e serviços, cuja soma ponderada resulta na inflação de preços livres, são dadas por:
+
+(1c)
+
+𝑆,𝑠𝑎
+
+    𝜋𝑡
+
+𝑆
+= 𝐴𝑡
+
++ 𝛼1
+
+4
+i=1
+𝑆 ∑ 𝜋𝑡 −𝑖
+
+𝐼𝑃𝐶𝐴 ,𝑠𝑎
+
+4
+
+4
+i=1
+𝑆 ∑
+
++ 𝛼2
+
+𝑆 ,𝑠𝑎
+𝜋𝑡 −𝑖
+4
+
+𝑆
+− 𝐴𝑡 −𝑖
+
+𝑆
++ 1 − 𝛼1
+
+− 𝛼2
+
+𝑒
+𝑆 𝜋𝑡,𝑡 +4|𝑡
+
+4
+
+𝑆
++ 𝛼3
+
+𝑆
+ℎ𝑡 + 𝜖𝑡
+
+4/  As inflações importadas oriundas do IC‑Br, tanto no índice agregado, como nos índices por grupos, são representadas como variações 
+
+do índice medido em reais, ou seja, incorporam a variação cambial medida em dólar norte‑americano.
+
+5/  Esse termo procura captar possíveis efeitos da taxa de câmbio que não passam pelo preço de commodities. A variação de longo 
+
+prazo considerada utiliza a diferença entre a meta de inflação doméstica e a meta da maioria dos países avançados, de 2%.
+
+6/  Em virtude do papel que os fenômenos El Niño e La Niña exercem para o comportamento da inflação de alimentos, utiliza‑se variável 
+de controle que reflete as temperaturas do Oceano Pacífico. A série utilizada é o Oceanic Niño Index (ONI), provida pelo Climate  
+Prediction Center, vinculado ao National Oceanic and Atmospheric Administration (NOAA) dos Estados Unidos da América (EUA). Para 
+mais detalhes, ver o boxe Modelo agregado de pequeno porte – 2017, do Relatório de Inflação de junho de 2017.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  98
+
+ 
+, 
+
+ e 
+
+onde 
+no domicílio e de serviços, respectivamente, todas com ajuste sazonal; 
+das inflações setoriais na inflação de preços livres, tais que 
++
+observáveis responsáveis por capturar a diferença relativa de inflação entre os grupos7; 
+de Pressão nas Cadeias de Suprimentos Brasileiras8 no período entre 2020T4 e 2022T3; e 
+termos de erro.
+
+ representam as inflações trimestrais dos grupos de bens industriais, de alimentação 
+ são os respectivos pesos 
+ são variáveis não‑
+ e 
+ é o Índice 
+ são 
+
+, 
+= 1; 
+
+ e 
+
+ e 
+
++
+
+, 
+
+, 
+
+Há  apenas  duas  mudanças  na  especificação  em  relação  à  versão  publicada  em  2021.  À  equação  de  bens 
+industriais foi acrescentado o termo 
+ que representa o impacto do choque extraordinário nas cadeias 
+produtivas ocorrido durante a pandemia, que foi sentido sobretudo no setor de bens industriais. A outra 
+mudança está na equação de alimentação no domicílio, onde foi acrescentado um termo MA(1) de defasagem 
+do  termo  de  erro  (
+).  Essa  defasagem,  cujo  coeficiente  estimado  é  negativo,  ajuda  a  representar  a 
+reversão mais rápida observada nos choques nos preços de alimentos.
+
+Curva IS
+
+A curva IS descreve a dinâmica do hiato do produto doméstico como função de suas defasagens, do hiato de 
+taxa de juros real ex-ante, de uma variável fiscal e do hiato do produto mundial:
+
+com
+
+ é uma medida de hiato de taxa de juros real, obtida pela diferença entre a expectativa da taxa Selic ao  
+onde 
+), 
+longo de um horizonte de doze meses 
+ambas apuradas pela pesquisa Focus e representadas em taxa anual, e uma taxa de juros real de equilíbrio não 
+observável (
+ é uma medida do resultado primário do governo central corrigido por outliers e ajustado 
+pelo ciclo econômico, expressa como desvio de sua tendência; 
+ é uma medida do hiato do produto mundial 
+relevante para a economia brasileira9; 
+
+ e a expectativa de inflação referente ao mesmo período (
+
+ é um choque autorregressivo; e, por fim, 
+
+ é um termo de erro.
+
+);
+
+Em relação às versões de 2021, a curva IS não apresenta mais um termo para o índice de incerteza econômica. 
+Outra  modificação  foi  a  introdução  de  um  componente  de  persistência  no  choque  da  IS,  que  antes  era 
+apenas um ruído branco 
+
+ e agora é representado por um choque 
+
+ com coeficiente autorregressivo 
+
+7/  Essas variáveis, representadas no modelo como passeios aleatórios com variâncias calibradas, procuram acomodar as tendências 
+distintas nas inflações setoriais. Por exemplo, a produtividade de bens industriais cresce a uma taxa maior do que a de serviços, o 
+que resulta numa inflação média mais baixa para o primeiro grupo. Essas tendências setoriais distintas são definidas em relação à 
+inflação agregada de preços livres e, portanto, a soma ponderada é zero, por construção (equação 1.2c). 
+
+8/  Ver o boxe Índice de pressão nas cadeias de suprimentos brasileiras, do Relatório de Inflação de setembro de 2022.
+9/  Calculado a partir da combinação do PIB de diversos países, onde o peso utilizado para cada país é baseado em sua participação nas 
+
+exportações brasileiras.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  99
+
+ 
+, com variâncias 
+a ser estimado. Também foram acrescentados dois termos de erro, 
+calibradas  relativamente  elevadas  durante  os  períodos  da  crise  financeira  de  2008/2009  e  da  pandemia 
+da  Covid‑19,  respectivamente10.  Houve  também  mudança  na  especificação  da  taxa  de  juros  de  equilíbrio 
+,  que  era  um  passeio  aleatório  simples  e  agora  passa  a  ter  duas  componentes,  um  componente  de 
+, dada pela tendência HP do juro real Focus  
+
+ e uma tendência de longo prazo 
+
+persistência elevada 
+
+ e 
+
+. O desvio‑padrão do choque 
+
+ é calibrado de forma que a trajetória resultante de 
+
+tenha variância semelhante às observadas nas trajetórias de média e mediana de indicadores de taxa neutra 
+apresentadas no boxe Atualização de medidas de taxa de juros real neutra no Brasil deste Relatório de Inflação.
+
+Função reação do banco central
+
+A função de reação do banco central, representada aqui por uma regra de Taylor, é dada por:
+
+ representa a meta para a taxa Selic nominal, que é função de seu próprio valor no passado e de 
+
+onde 
+respostas do banco central aos desvios das expectativas de inflação 
+é um termo de erro11. Todas as variáveis estão representadas em taxas anualizadas.
+
+ em relação à meta (
+
+), e 
+
+, distinto daquele da IS. Assim como na curva IS, o desvio‑padrão do choque 
+
+Assim como na curva IS, houve uma mudança de especificação da taxa de equilíbrio em relação à versão do 
+modelo de 2021. Agora, a taxa de equilíbrio foi decomposta em duas partes, uma dada pela tendência HP 
+dos juros reais Focus 
+ (a mesma usada na IS) e outra dada por um componente de persistência elevada 
+ é calibrado de 
+forma que a trajetória resultante de 
+ tenha variância semelhante às observadas nas trajetórias de 
+média e mediana dos indicadores de taxa neutra. A regra de Taylor estimada representa uma função de reação 
+média da autoridade monetária ao diferencial das expectativas de inflação em relação à meta de inflação. 
+Os desvios observados na amostra em relação a essa função de reação média são distribuídos entre 
+  da  regra 
+(parte  mais  persistente)  e 
+de Taylor é diversa daquela da variável 
+ da curva IS (que representa uma componente não‑observável 
+persistente da demanda agregada), o que justificaria desfazer a vinculação entre elas que existia nas versões 
+dos modelos de 2021.
+
+  (parte  mais  transitória).  Assim,  a  interpretação  da  variável 
+
+As demais equações dos modelos mantêm a especificação original das versões de 2021 e são referidas a 
+seguir para completude e fechamento dos blocos principais dos modelos.
+
+Paridade descoberta da taxa de juros
+
+A equação da paridade descoberta da taxa de juros (abaixo) relaciona a variação da taxa de câmbio (
+)  
+com a variação do diferencial de juros (
+) domésticos e externos (no caso, a Fed Funds rate), ajustados 
+pelo prêmio de risco, medido nesta estimação pelo Credit Default Swap (CDS) de cinco anos para o Brasil. 
+
+10/ O termo 
+
+ cobre o período de 2008T4 a 2009T4, e o termo 
+
+ , o período de 2020T1 a 2020T4. Fora desses intervalos, 
+os termos são nulos. A introdução desses termos substitui com vantagem o papel do indicador de incerteza nos períodos de crise. Além 
+disso, a presença desses choques com variância alta reduz o viés que esses períodos atípicos de crise na amostra podem ocasionar 
+na estimação dos parâmetros do modelo. Esse tipo de solução tem sido adotada por vários autores para lidar com a estimação de 
+modelos durante o período da pandemia, por exemplo, Lenza e Primiceri (2022).
+
+11/ Assim como na versão anterior do modelo, não há um termo de reação ao hiato do produto, pois esse não se mostrou bem identificado 
+e significativo no processo de estimação. No entanto, não é correto estender esse resultado a uma interpretação simplista de que 
+o BC não reage à atividade, já que as expectativas de inflação são correlacionadas ao hiato, tendendo a ser mais altas quanto mais 
+positivo está o hiato e vice‑versa.  
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  100
+
+ 
+ 
+ 
+A variação esperada para o câmbio no longo prazo (
+dada pelo diferencial entre a meta de inflação doméstica 
+
+) segue a Paridade do Poder de Compra (PPC) e é 
+12:
+ e a inflação de equilíbrio externa 
+
+As variações 
+
+ e 
+
+ são trimestrais, e as taxas 
+
+, 
+
+ e 
+
+ estão anualizadas.
+
+Expectativas de inflação
+
+A equação das expectativas de inflação busca manter a coerência e consistência entre as expectativas de 
+inflação medidas pela pesquisa Focus e as demais variáveis do modelo, em especial quando se constroem 
+cenários  alternativos  ao  cenário  base,  permitindo  que  alterações  em  condicionantes  das  projeções  se 
+transladem em alterações nas expectativas. A equação é dada por:
+
+onde 
+modelo (model-consistent expectations); 
+de erro.
+
+ representa a expectativa de inflação acumulada quatro trimestres à frente consistente com o 
+ é um termo 
+
+ é representa a inflação trimestral do IPCA; e 
+
+Hiato do produto
+
+O modelo trata o hiato do produto como uma variável não‑observável, cuja trajetória incorpora informação 
+de quatro variáveis de atividade econômica, referentes ao produto na economia e à ociosidade dos fatores de 
+produção. Especificamente, são utilizados o Produto Interno Bruto (PIB, calculado pelo Instituto Brasileiro de 
+Geografia e Estatística – IBGE), o Nível de Utilização da Capacidade Instalada (Nuci, calculado pela Fundação 
+Getulio Vargas – FGV), a taxa de desocupação (medida pelo IBGE) e o estoque de empregos formais medido 
+pelo Novo Cadastro Geral de Empregados e Desempregados (Novo Caged – Ministério do Trabalho e Emprego). 
+A especificação das equações de observação dessas quatro variáveis procura captar o componente cíclico 
+comum a essas medidas de atividade, normalizadas pela variância do PIB:
+
+  representa  o  componente  cíclico  da  variável 
+
+  é  o  desvio  padrão  do  erro  de 
+onde 
+  no  período 
+mensuração, que, por suposição, é igual para todas as observáveis; e 
+ representa os termos de erro. A 
+componente cíclica das variáveis não estacionárias PIB e Novo Caged é obtida a partir de um filtro HP com 
+lambda 1.600; as componentes cíclicas da Nuci e desocupação são obtidas subtraindo das séries as respectivas 
+médias do período pré‑Covid (até 2019T4). Ressalta‑se que o modelo adiciona estrutura econômica à estimação 
+do hiato do produto, ao condicioná‑lo também à sua relação com a inflação de preços livres (via curva(s) de 
+Phillips), às expectativas de inflação (via equação de expectativas) e à própria curva IS. Assim, a trajetória 
+
+; 
+
+12/ Sobre a utilização da PPC em projeções, ver o boxe Condicionantes de câmbio nas projeções do Banco Central do Brasil e a paridade 
+
+do poder de compra, do Relatório de Inflação de setembro de 2020.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  101
+
+estimada do hiato será influenciada tanto pelos indicadores de atividade quanto pelo comportamento das 
+demais variáveis do modelo.
+
+Parâmetros estimados
+
+A estimação foi realizada com dados trimestrais, considerando o período de 2003T4 a 2023T4. Excluiu‑se assim 
+o período inicial do regime de metas, caracterizado por elevada volatilidade, mas a amostra de estimação se 
+estende incorporando todo o período da pandemia da Covid‑19. Alguns cuidados foram tomados para evitar 
+que os eventos extremos do período prejudicassem a estimação dos parâmetros. A principal abordagem 
+foi impor variâncias mais altas para os choques no período. A aplicação dessa abordagem na curva IS já foi 
+explicada acima. No caso das curvas de Phillips, tanto do modelo agregado quanto do desagregado, calibraram‑
+se valores mais altos das variâncias dos termos de erro no período entre 2020T2 e 2022T4. O impacto disso 
+é  reduzir  o  peso  das  observações  desses  períodos  na  estimação  dos  parâmetros  dessas  curvas,  uma  vez 
+que o foco aqui é obter valores de parâmetros condizentes com os períodos em que a economia opera de 
+forma mais regular. No caso da Phillips de bens industriais, foi necessário acrescentar o IPPCV como variável 
+explicativa no período da pandemia, já que, para esse setor em particular, o impacto da pandemia não foi 
+apenas o aumento da variância dos choques, mas também uma elevação persistente da inflação setorial por 
+conta dos distúrbios nas cadeias produtivas globais.
+
+As Tabelas 1 e 2 detalham, para os modelos agregado e desagregado, respectivamente, as distribuições a priori 
+de cada parâmetro estimado por meio de técnicas bayesianas, bem como apresenta a moda e o intervalo de 
+credibilidade de 90% das distribuições a posteriori estimadas. Em geral, a estimação dessa versão do modelo 
+buscou utilizar prioris pouco informativas, limitando apenas o suporte. Dessa forma, o resultado da estimação 
+reflete principalmente o ajuste das equações aos dados observados.
+
+Funções de resposta ao impulso
+
+As propriedades do modelo são ilustradas nos gráficos seguintes pelas funções de resposta ao impulso de 
+diferentes choques nas variáveis econômicas e seu impacto na inflação, medida pela variação do IPCA. São 
+apresentadas funções de resposta a choques na taxa Selic, na taxa de câmbio e no hiato do produto. Para 
+cada choque, o gráfico à esquerda apresenta o comportamento da variável em que o choque é aplicado, o 
+à direita mostra o comportamento da inflação acumulada em quatro trimestres e o mais abaixo apresenta 
+o  comportamento,  no  caso  do  modelo  desagregado,  da  inflação  de  preços  de  bens  de  serviços,  de  bens 
+industriais e de alimentação no domicílio. As simulações são realizadas incorporando também o modelo de 
+preços administrados13.
+
+A primeira simulação ilustra o efeito de um choque na taxa de juros. A taxa Selic anualizada sobe 1 p.p. por 
+quatro trimestres e depois segue comportamento baseado na regra de Taylor (Gráfico 1A). A inflação do 
+IPCA cai, atingindo, no acumulado em quatro trimestres, um efeito máximo estimado de 0,27 p.p. e 0,24 
+p.p. segundo os modelos agregado e desagregado, respectivamente, alcançados no quarto trimestre após o 
+choque inicial. Considerando os grupos do modelo desagregado, a inflação de serviços é a que responde de 
+forma mais intensa e persistente (Gráfico 1C), refletindo a estimação, na curva de Phillips, de coeficientes de 
+maior magnitude no hiato do produto e nos componentes de inércia. A resposta de alimentação no domicílio 
+
+13/ Ver o boxe Reformulação dos modelos de projeção de médio prazo dos preços administrados, do Relatório de Inflação de setembro 
+
+de 2017.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  102
+
+Tabela 1 – Parâmetros estimados, modelo agregado
+
+Parâmetros
+
+Descrição da variável ou do parâmetro
+
+Priori
+
+Posteriori
+
+Distribuição*
+
+Moda
+
+Intervalo de credibilidade (90%)
+
+Curva de Phillips Preços Livres
+
+1
+
+L
+1
+
+α
+
+I
+
+α
+α2
+3
+
+α
+4
+
+α
+5
+
+α
+6
+
+Inércia da inflação de livres
+
+Inércia da inflação IPCA
+
+Inflação importada
+
+Variação do câmbio
+
+Hiato do produto
+
+Anomalia climática, El Niño
+
+Anomalia climática, La Niña
+
+α
+Curva IS
+
+1
+
+β
+2
+
+β
+3
+
+β
+4
+
+β
+5
+
+β
+Regra de Taylor
+
+Autorregressivo da IS
+
+Juro real
+
+Resultado primário
+
+Hiato mundial
+
+Autorregressivo do choque da IS
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;0,01])
+
+Uniforme ([0;0,01])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Beta ([0,03;0,002])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+1
+
+2
+
+θ
+
+3
+
+θ
+
+Suavização dos juros, 1ª defasagem
+
+Suavização dos juros, 2ª defasagem
+
+Uniforme ([0;2])
+
+Uniforme ([-1;1])
+
+Desvio da expectativa de inflação em relação à meta
+
+Uniforme ([0;4])
+
+Expectativas de inflação
+
+θ
+
+1
+
+φ
+2
+
+φ
+3
+
+Inércia das expectativas
+
+Expectativa consistente com o modelo
+
+Inflação passada
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Outras curvas
+
+φ
+
+δ
+γnuci
+γemp
+caged
+
+γ
+
+h
+σ
+
+Diferencial de taxa de juros interna e externa
+
+Uniforme ([0;10])
+
+Coeficiente de proporcionalidade da Nuci
+
+Coeficiente de proporcionalidade do emprego
+
+Coeficiente de proporcionalidade do Caged
+
+Desvio padrão de erro de mensuração
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+Uniforme ([0;2])
+
+0,24
+
+0,38
+
+0,023
+
+0,011
+
+0,120
+
+0,0012
+
+0,0007
+
+0,85
+
+0,44
+
+0,030
+
+0,054
+
+0,84
+
+1,48
+
+-0,58
+
+2,03
+
+0,75
+
+0,11
+
+0,021
+
+1,90
+
+1,87
+
+1,10
+
+0,69
+
+1,09
+
+[0,02;   0,38]
+
+[0,13;   0,69]
+
+[0,006;   0,039]
+
+[0;   0,025]
+
+[0,072;   0,198]
+
+[0,0004;   0,0019]
+
+[0;   0,0021]
+
+[0,7;   0,95]
+
+[0,21;   0,66]
+
+[0,027;   0,032]
+
+[0;   0,23]
+
+[0,59;   0,99]
+
+[1,41;   1,54]
+
+[-0,63;   -0,52]
+
+[1,47;   2,64]
+
+[0,68;   0,82]
+
+[0,06;   0,13]
+
+[0;   0,049]
+
+[0,77;   3,22]
+
+[1,65;   2,12]
+
+[0,96;   1,25]
+
+[0,61;   0,79]
+
+[0,98;   1,21]
+
+* As distribuiçoes uniformes são definidas com os limites dos intervalos da distribuição, as distribuições beta por média e desvio-padrão.
+
+se dá de forma mais rápida e intensa do que em bens industriais por causa da resposta mais rápida e intensa 
+à apreciação cambial resultante do choque de juros.
+
+Uma  depreciação  permanente  do  câmbio  de  10%,  por  sua  vez,  produz  um  efeito  máximo  na  variação 
+acumulada em quatro trimestres do IPCA de aproximadamente 0,96 p.p. e 0,87 p.p. no IPCA (Gráficos 2A 
+e 2B), segundo os modelos agregado e desagregado, respectivamente. Nesse caso, a inflação de preços 
+livres aumenta 0,72 p.p. e 0,61 p.p. e a de preços administrados cerca de 1,65 p.p. e 1,61 p.p., conforme os 
+modelos agregado e desagregado, respectivamente. Considerando os pesos desse grupos, a contribuição 
+da inflação de preços administrados para a inflação do IPCA é de cerca de 0,41p.p e 0,40p.p. nos modelos 
+agregado e desagregado, respectivamente. Usando o modelo desagregado, percebe‑se que, dentro dos 
+preços livres, alimentação no domicílio é o grupo mais impactado pela depreciação cambial, seguida por bens 
+industriais e, por último, por serviços (Gráfico 2C). Este último é afetado pela depreciação cambial apenas 
+de forma indireta. A sua reação tem um pico que ocorre um pouco mais tarde que os demais e apresenta 
+maior persistência.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  103
+
+Tabela 2 – Parâmetros estimados, modelo desagregado
+
+Parâmetros
+
+Descrição da variável 
+ou do parâmetro
+
+Priori
+
+Posteriori
+
+Distribuição*
+
+Moda
+
+Intervalo de credibilidade (90%)
+
+Curva de Phillips Bens Industriais
+
+Inércia da inflação setorial
+
+Uniforme ([0;1])
+
+1
+
+Commodities  metálicas em R$, termo contemporâneo
+
+Uniforme ([0;1])
+
+B
+α
+B
+α
+B
+α
+
+2,0
+
+2,1
+
+B
+α
+B
+α
+B
+α
+B
+α
+
+3
+
+4
+
+5
+
+6
+
+Commodities  metálicas em R$, 1ª defasagem
+
+Petróleo em R$
+
+Variação do câmbio, 1ª defasagem
+
+Índice de pressão nas cadeias de suprimentos
+
+Hiato do produto
+
+Curva de Phillips Alimentação no domicílio
+
+Inércia da inflação setorial
+
+Commodities  agrícolas em R$
+
+Variação do câmbio
+
+Hiato do produto
+
+Anomalia climática, El Niño
+
+Anomalia climática, La Niña
+
+Coeficiente MA(1) do choque da Phillips
+
+A
+α
+A
+α
+A
+α
+A
+α
+A
+α
+A
+α
+A
+α
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Curva de Phillips Serviços
+
+Inércia da inflação do IPCA
+
+Inércia da inflação setorial
+
+Hiato do produto
+
+Autorregressivo da IS
+
+Juro real
+
+Resultado primário
+
+Hiato mundial
+
+Autorregressivo do choque da IS
+
+Suavização dos juros, 1ª defasagem
+
+Suavização dos juros, 2ª defasagem
+
+S
+1
+α
+S
+2
+α
+S
+3
+α
+Curva IS
+
+1
+
+β
+2
+
+β
+3
+
+β
+4
+
+β
+5
+
+β
+Regra de Taylor
+
+1
+
+2
+
+θ
+
+3
+
+θ
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;0,01])
+
+Uniforme ([0;0,01])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Beta ([0,03;0,002])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;2])
+
+Uniforme ([-1;1])
+
+Desvio da expectativa de inflação em relação à meta
+
+Uniforme ([0;4])
+
+Expectativas de inflação
+
+θ
+
+1
+
+φ
+2
+
+φ
+3
+
+Inércia das expectativas
+
+Expectativa consistente com o modelo
+
+Inflação passada
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Outras curvas
+
+φ
+
+δ
+γnuci
+γemp
+caged
+
+γ
+
+h
+σ
+
+Diferencial de taxa de juros interna e externa
+
+Uniforme ([0;10])
+
+Coeficiente de proporcionalidade da Nuci
+
+Coeficiente de proporcionalidade do emprego
+
+Coeficiente de proporcionalidade do Caged
+
+Desvio padrão de erro de mensuração
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+Uniforme ([0;2])
+
+* As distribuiçoes uniformes são definidas com os limites dos intervalos da distribuição, as distribuições beta por média e desvio-padrão.
+
+0,43
+
+0,0095
+
+0,0082
+
+0,0086
+
+0,015
+
+0,23
+
+0,079
+
+0,53
+
+0,045
+
+0,023
+
+0,073
+
+0,0044
+
+0,0041
+
+-0,50
+
+0,37
+
+0,30
+
+0,13
+
+0,86
+
+0,44
+
+0,030
+
+0,053
+
+0,83
+
+1,48
+
+-0,58
+
+2,07
+
+0,74
+
+0,12
+
+0,026
+
+1,95
+
+1,86
+
+1,09
+
+0,70
+
+1,10
+
+[0,252;   0,598]
+
+[0;   0,024]
+
+[0;   0,021]
+
+[0;   0,015]
+
+[0,0011;   0,0302]
+
+[0;   0,45]
+
+[0,017;   0,15]
+
+[0,12;   0,63]
+
+[0,0001;   0,083]
+
+[0;   0,066]
+
+[0;   0,22]
+
+[0,0022;   0,0069]
+
+[0,0008;   0,0094]
+
+[-0,62;   -0,01]
+
+[0,19;   0,55]
+
+[0,104;   0,497]
+
+[0,095;   0,173]
+
+[0,7;   0,96]
+
+[0,14;   0,69]
+
+[0,027;   0,033]
+
+[0;   0,22]
+
+[0,56;   1]
+
+[1,41;   1,53]
+
+[-0,63;   -0,53]
+
+[1,55;   2,7]
+
+[0,66;   0,79]
+
+[0,08;   0,15]
+
+[0,004;   0,056]
+
+[0,73;   3,19]
+
+[1,65;   2,12]
+
+[0,97;   1,25]
+
+[0,62;   0,79]
+
+[0,98;   1,21]
+
+No caso da curva IS, um choque positivo de 1% no hiato do produto (que pode ser entendido como um choque 
+de demanda) ocasiona elevação de 0,49 p.p. e 0,45 p.p. na inflação do IPCA acumulada em quatro trimestres, 
+segundo os modelos agregado e desagregado, respectivamente. Na desagregação, percebe‑se que a inflação 
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  104
+
+Gráfico 1A – Taxa de juros Selic após choque de 
+política monetária
+p.p. a.a.
+
+Gráfico 1B – Resposta da inflação ao choque na taxa 
+de juros
+
+Acumulada em quatro trimestres (p.p.)
+
+1,2
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+-0,2
+
+-0,4
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Modelo agregado
+
+Modelo desagregado
+
+Taxa Selic mais alta em 1 p.p. durante quatro trimestres consecutivos e depois 
+segue a regra de Taylor.
+
+0,00
+
+-0,05
+
+-0,10
+
+-0,15
+
+-0,20
+
+-0,25
+
+-0,30
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+8
+
+6
+7
+Trimestres
+
+9
+
+10 11 12 13 14 15 16
+
+Modelo agregado
+
+Modelo desagregado
+
+Gráfico 1C – Resposta das inflações setoriais ao 
+choque na taxa de juros
+
+Acumulada em quatro trimestres (p.p.)
+
+0,00
+
+-0,05
+
+-0,10
+
+-0,15
+
+-0,20
+
+-0,25
+
+-0,30
+
+-0,35
+
+-0,40
+
+-0,45
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Bens industriais
+Serviços
+
+8
+
+6
+7
+Trimestres
+
+9
+
+10 11 12 13 14 15 16
+
+Alimentação no Domicílio
+
+Gráfico 2A – Variação acumulada da taxa de câmbio 
+após choque de depreciação cambial
+
+%
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+Gráfico 2B – Resposta de inflação ao choque de 
+depreciação cambial
+
+Acumulada em quatro trimestres (p.p.)
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Trimestres
+
+Modelo agregado
+
+Modelo desagregado
+
+Depreciação de 10% na taxa de câmbio em um trimestre.
+
+Gráfico 2C – Resposta das inflações setoriais ao 
+choque de depreciação cambial
+Acumulada em quatro trimestres (p.p.)
+
+1,6
+
+1,4
+
+1,2
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Bens industriais
+
+Alimentação no domicílio
+
+Serviços
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  105
+
+de serviços é a que mais responde ao choque no hiato, seguida por bens industriais e alimentação no domicílio 
+(Gráfico 3C), refletindo as diferenças na magnitude do coeficiente no hiato do produto nas curvas setoriais 
+de Phillips. A inflação de serviços também é a que apresenta maior persistência.
+
+Gráfico 3A – Hiato do produto após choque no próprio 
+hiato
+p.p.
+
+Gráfico 3B – Resposta de inflação ao choque de hiato 
+do produto
+
+Acumulada em quatro trimestres (p.p.)
+
+1,2
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+-0,2
+
+0,6
+
+0,5
+
+0,4
+
+0,3
+
+0,2
+
+0,1
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Trimestres
+
+Modelo agregado
+
+Modelo desagregado
+
+Modelo agregado
+
+Modelo desagregado
+
+Queda de 1p.p. no hiato do produto doméstico durante um trimestre.
+
+Gráfico 3C – Resposta das inflações setoriais ao 
+choque de hiato do produto
+
+Acumulada em quatro trimestres (p.p.)
+
+0,7
+
+0,6
+
+0,5
+
+0,4
+
+0,3
+
+0,2
+
+0,1
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+Trimestres
+
+9
+
+10 11 12 13 14 15 16
+
+Bens industriais
+
+Alimentação no Domicílio
+
+Serviços
+
+A transmissão de um choque de política monetária se faz por vários canais no modelo. Além do impacto 
+sobre a demanda agregada e hiato do produto, representado na curva IS, o choque também afeta a inflação 
+pelo  canal  de  câmbio  da  equação  da  UIP  e  mais  indiretamente  via  impacto  nas  expectativas  de  inflação. 
+Pode‑se ilustrar a existência desses canais por meio de um exercício simples usando o modelo agregado. 
+Introduzimos  no  modelo  um  choque  de  juros  exógeno  com  trajetória  fixa,  elevando‑se  1  p.p.  por  quatro 
+trimestres  e  depois  decaindo  a  um  fator  fixo  de  0,8  por  trimestre  (Gráfico  4A).  Essa  trajetória  fixa  serve 
+para silenciar a resposta endógena do modelo via regra de Taylor, garantindo que a trajetória de juro seja 
+idêntica nos exercícios seguintes, tornando‑os mais comparáveis. Num primeiro caso, permite‑se que câmbio 
+e expectativas respondam endogenamente ao choque de juros, observando‑se uma resposta rápida e intensa 
+(Gráfico 4B). Num segundo caso, silenciamos o canal de transmissão via câmbio, e a resposta da inflação 
+
+Gráfico 4A – Taxa de juros Selic após choque de 
+política monetária
+
+p.p.
+
+1,2
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Elevação de 1p.p. na Selic por 4 trimestres, retornando gradualmente com taxa 
+de decaimento 0,8.
+
+Gráfico 4B – Resposta de inflação ao choque na taxa 
+de juros (modelo agregado)
+Acumulada em quatro trimestres (p.p.)
+0,0
+
+-0,1
+
+-0,2
+
+-0,3
+
+-0,4
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+Expectativa IPCA e câmbio livres
+Expectativa IPCA livre, câmbio fixo
+Expectativa IPCA e câmbio fixos
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  106
+
+passa a ser mais defasada e persistente. Por fim, um último cenário em que se impede também a reação das 
+expectativas de inflação, reduz‑se ainda mais a intensidade da resposta da inflação, que apresenta também 
+uma persistência menor. É interessante ilustrar esses canais de transmissão também porque, no processo 
+de construção de cenários de projeção baseados em modelos, uma mesma trajetória de juros pode produzir 
+respostas diferentes da inflação de acordo com as hipóteses que são simultaneamente levantadas sobre o 
+comportamento de outras variáveis.
+
+Considerações finais
+
+Visando manter o nível de transparência que caracteriza as ações de política monetária, este boxe apresenta 
+informações sobre a atualização dos modelos semiestruturais de pequeno porte utilizados pelo BC.
+
+Essa revisão não alterou significativamente a estrutura dos modelos. Concentrou‑se em aperfeiçoar pontos 
+específicos da estimação e estender a amostra de estimação para até o quarto trimestre de 2023, considerando 
+os ajustes necessários para lidar com o choque econômico gerado pela pandemia da Covid‑19. Cabe enfatizar 
+que, assim como em outros modelos utilizados pelo BC para efetuar análises de cenários e projeções, as 
+especificações do modelo e estimação são continuamente reavaliadas e revisadas.
+
+Ressalta‑se  ainda  que  as  projeções  apresentadas  nos  documentos  oficiais  do  Copom  são  resultado  da 
+combinação dos seguintes elementos: (i) análise de conjuntura e projeções de especialistas para preços livres 
+para horizontes mais curtos e para preços administrados até determinado horizonte; (ii) utilização de modelos 
+macroeconômicos, de modelos satélites, de modelos específicos para os itens de preços administrados e de 
+estudos; (iii) construção de trajetórias e hipóteses sobre os condicionantes; e (iv) avaliação sobre o estado e 
+perspectivas da economia.
+
+Referência
+
+LENZA, M., & PRIMICERI, G. E. (2022). “How to estimate a vector autoregression after March 2020”, Journal 
+of Applied Econometrics, 37(4), 688‑699.
+
+Junho 2024  \  Banco Central do Brasil  \  Relatório de Inflação  \  107
+
+

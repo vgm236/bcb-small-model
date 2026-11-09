@@ -1,0 +1,6 @@
+{
+ "source": "BCB Focus (Olinda)",
+ "entity": "ExpectativaMercadoMensais",
+ "filter": "IPCA, Data ge 2024-06-01",
+ "downloaded_at": "2026-10-30T05:23:51"
+}

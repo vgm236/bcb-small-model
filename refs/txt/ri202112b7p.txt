@@ -1,0 +1,1282 @@
+Revisão do modelo agregado de pequeno porte
+
+Os  modelos  de  projeção  do  Banco  Central  do  Brasil  (BCB)  constituem  importante  insumo  para  auxiliar  o 
+processo de tomada de decisão do Comitê de Política Monetária (Copom) e estão em contínuo aprimoramento. 
+Em linha com o procedimento de aperfeiçoar a comunicação e transparência do BCB, este boxe atualiza as 
+informações sobre o modelo agregado de pequeno porte, publicadas nos Relatórios de Inflação de setembro 
+e dezembro de 20201.
+
+A  revisão  não  trouxe  alterações  significativas  na  estrutura  do  modelo  e  concentrou‑se  em  aprimorar  a 
+estimação  bayesiana  dos  parâmetros,  bem  como  incorporar  alguns  aperfeiçoamentos  já  introduzidos  no 
+modelo desagregado, como, por exemplo, a assimetria na anomalia climática.
+
+Especificação do modelo agregado e novos parâmetros obtidos com a reestimação
+
+O  modelo  mantém  a  abordagem  de  focar  nas  principais  relações  econômicas  relevantes  para  análise  da 
+política monetária. A sua estrutura básica é definida por cinco equações comportamentais: (i) uma curva de 
+Phillips, que determina a dinâmica da inflação de preços livres; (ii) uma curva IS, que determina a dinâmica 
+do hiato do produto; (iii) a regra de Taylor, que representa a função de reação de um banco central; (iv) uma 
+equação de paridade descoberta de juros (Uncovered Interest Parity – UIP, na sigla em inglês), que descreve a 
+relação entre a variação da taxa de câmbio e o diferencial de juros internos e externos e um prêmio de risco; 
+e (v) uma curva de expectativas de inflação, as quais reagem endogenamente no modelo.2
+
+A curva de Phillips, representada pela equação abaixo, determina a dinâmica da inflação de preços livres 
+como função da inércia inflacionária, das expectativas de inflação, da inflação externa, da taxa de câmbio, 
+do hiato do produto doméstico e das anomalias climáticas:
+
+onde: 
+
+ representa a inflação de preços livres do Índice Nacional de Preços ao Consumidor Amplo (IPCA) 
+onde 
+ é a expectativa em 
+com ajuste sazonal; 
+ é a inflação 
+t, apurada pela pesquisa Focus, acerca da inflação esperada para quatro trimestres à frente; 
+importada de commodities, medida pelo desvio da variação do Índice de Commodities – Brasil (IC‑Br) em reais 
+ é a inflação importada de commodities agrícolas, medida 
+em relação à meta de inflação doméstica3; 
+
+ representa a inflação do IPCA com ajuste sazonal; 
+
+1/  Ver boxes “Novo modelo agregado de pequeno porte com estimação bayesiana” do Relatório de Inflação de setembro de 2020 e 
+“Resultados das estimações do novo modelo agregado de pequeno porte com estimação bayesiana” do Relatório de Inflação de 
+dezembro de 2020.
+
+2/  Ressalta‑se que os modelos utilizados para preços administrados seguem basicamente os apresentados em “Reformulação dos 
+modelos de projeção de médio prazo dos preços administrados”, no Relatório de Inflação de setembro de 2017. Na elaboração de 
+projeções, utilizam‑se também as projeções de especialistas.
+
+3/  As  inflações  importadas  oriundas  do  IC‑Br  são  representadas  como  variações  do  índice  em  BRL,  ou  seja,  incorporam  a  variação 
+
+cambial medida em USD.
+
+Dezembro 2021  \  Banco Central do Brasil  \  Relatório de Inflação  \  73
+
+pelo desvio do Índice de Commodities – Brasil – Agropecuária (IC‑Br Agropecuária) em relação à meta de 
+ é a inflação importada de commodities metálicas, medida pelo desvio do Índice 
+inflação doméstica; 
+de Commodities – Brasil – Metal (IC‑Br Metal) em relação à meta de inflação doméstica; 
+ é a inflação 
+importada de commodities energéticas, medida pelo desvio do Índice de Commodities – Brasil – Energia (IC‑
+ são os respectivos pesos das inflações 
+Br Energia) em relação à meta de inflação doméstica4; 
+ é o desvio da variação da taxa de câmbio (USD/BRL) em 
+setoriais importadas, tais que 
+relação à sua variação de longo prazo previsto pela teoria da paridade do poder de compra5; 
+ é o hiato do 
+produto doméstico; 
+ representa a variável que captura choques de oferta provenientes de anomalias 
+ é uma dummy que assume valor 1 quando a anomalia climática é positiva (eventos El Niño); 
+climáticas6; 
+ é o 
+
+ é uma dummy que assume valor 1 quando a anomalia climática é negativa (eventos La Niña); e 
+
+=1; 
+
+ e 
+
++
+
++
+
+, 
+
+termo de erro.
+
+A curva IS descreve a dinâmica do hiato do produto doméstico como função de suas defasagens, do hiato 
+de taxa de juros real ex-ante, de uma variável fiscal, da incerteza econômica e do hiato do produto mundial:
+
+onde: 
+
+) e a expectativa de inflação referente ao mesmo período (
+
+onde 
+um ano à frente (
+pela pesquisa Focus, e a taxa de juros real neutra (
+central corrigido pelo ciclo econômico e por outliers, e expresso como desvio de sua tendência; 
+uma medida do grau de incerteza na economia, como desvio de sua média7; 
+produto mundial relevante para a economia brasileira8; e, por fim, tanto 
+
+ é uma medida de hiato de taxa de juros real, obtida pela diferença entre a expectativa da taxa Selic 
+), ambas apuradas 
+ é uma medida do resultado primário do governo 
+ representa 
+ é uma medida do hiato do 
+ são termos de erro.
+
+ quanto 
+
+); 
+
+A função de reação do banco central, representada aqui por uma regra de Taylor, é dada por:
+
+onde 
+respostas do banco central aos desvios das expetativas de inflação em relação à meta (
+termo de erro.
+
+ representa a meta para a taxa Selic nominal, que é função de seu próprio valor no passado e de 
+ é um 
+
+), e 
+
+) 
+A equação da paridade descoberta da taxa de juros (abaixo) relaciona a variação da taxa de câmbio (
+com a variação do diferencial de juros (
+) domésticos e externos (no caso, a Fed Funds rate), ajustados 
+pelo prêmio de risco, medido nesta estimação pelo Credit Default Swap (CDS) de cinco anos para o Brasil. A 
+) segue a Paridade do Poder de Compra (PPC) e é 
+variação esperada para o câmbio no longo prazo (
+
+4/  As três inflações importadas oriundas do IC‑Br são representadas por variações do índice em BRL, ou seja, incorporam também a 
+
+variação cambial medida em USD.
+
+5/  Esse termo procura captar possíveis efeitos da taxa de câmbio que não passam pelo preço de commodities.
+6/  Em virtude do papel que os fenômenos El Niño e La Niña exercem para o comportamento da inflação de alimentos, utiliza‑se variável 
+de controle que reflete as temperaturas do Oceano Pacífico. A série utilizada é o Oceanic  Niño  Index  (ONI), provida pelo Climate  
+Prediction  Center, vinculado ao National  Oceanic  and  Atmospheric  Administration (NOAA) dos Estados Unidos da América (EUA). 
+Para mais detalhes, ver boxe “Modelo agregado de pequeno porte – 2017” (Relatório de Inflação de junho de 2017).
+
+7/  Na presente estimação, foi utilizado o Indicador de Incerteza da Economia – Brasil (IIE‑Br), produzido pela Fundação Getulio Vargas.
+8/  Calculado a partir da combinação do Produto Interno Bruto (PIB) de diversos países, onde o peso utilizado para cada país é baseado 
+
+em sua participação nas exportações brasileiras.
+
+74  \  Relatório de Inflação  \  Banco Central do Brasil  \  Dezembro 2021
+
+dada pelo diferencial entre a meta de inflação doméstica de longo prazo (
+externa (
+
+)9:
+
+) e a inflação de equilíbrio 
+
+onde 
+
+A equação das expectativas de inflação busca manter a coerência e consistência entre as expectativas de 
+inflação medidas pela pesquisa Focus e as demais variáveis do modelo, em especial quando se constroem 
+cenários  alternativos  ao  cenário‑base,  permitindo  que  alterações  em  condicionantes  das  projeções  se 
+transladem em alterações nas expectativas. A equação é dada por:
+
+(
+
+)    
+
+𝑒𝑒
+
+𝑒𝑒
+= 𝜑𝜑1𝜋𝜋�𝑡𝑡−1,𝑡𝑡+3|𝑡𝑡−1
+
+𝜋𝜋�𝑡𝑡,𝑡𝑡+4|𝑡𝑡
+
+5
+onde 
+pesquisa Focus em relação à meta de inflação; 
+o modelo (model-consistent expectations); 
+e 
+
+ é um termo de erro.
+
++ 𝜑𝜑2𝐸𝐸𝑡𝑡𝜋𝜋�𝑡𝑡,𝑡𝑡+4 + 𝜑𝜑3 �
+
+4
+∑ 𝜋𝜋�𝑡𝑡−𝑖𝑖
+𝑖𝑖=1
+4
+
+𝑒𝑒
+� + 𝜖𝜖𝑡𝑡
+
+ é o desvio de expectativa de inflação para os próximos quatro trimestres à frente apurada pela 
+ representa a expectativa de inflação consistente com 
+ é o desvio da inflação trimestral em relação à meta de inflação; 
+
+O modelo é implementado em representação de espaço de estados por meio de um filtro de Kalman, que 
+permite a introdução de variáveis não observáveis. Em particular, o modelo trata o hiato do produto como 
+uma variável não observável, cuja trajetória incorpora informação de quatro variáveis de atividade econômica, 
+referentes ao produto na economia e à ociosidade dos fatores de produção. Especificamente, são utilizados 
+o Produto Interno Bruto (PIB), o Nível de Utilização da Capacidade Instalada (Nuci, calculado pela Fundação 
+Getulio Vargas – FGV), a taxa de desocupação (medida pelo Instituto Brasileiro de Geografia e Estatística 
+– IBGE) e o estoque de empregos formais medido pelo Cadastro Geral de Empregados e Desempregados 
+(Caged – Ministério do Trabalho e Previdência). A especificação das equações de observação dessas quatro 
+variáveis  procura  captar  o  componente  cíclico  comum  a  essas  medidas  de  atividade,  normalizadas  pela 
+variância do PIB:
+
+  representa  o  componente  cíclico  da  variável 
+
+  é  a  variância  do  erro  de 
+onde 
+mensuração, que, por suposição, é igual para todas as observáveis; e 
+ representa os termos de erro. Ressalta‑
+se que o modelo adiciona estrutura econômica à estimação do hiato do produto, ao condicioná‑lo também 
+à sua relação com a inflação de preços livres (via curva de Phillips), às expectativas de inflação (via equação 
+de expectativas) e à própria curva IS. Assim, a trajetória do hiato será influenciada pelo comportamento das 
+variáveis do modelo, como o da inflação de preços livres.
+
+  no  período 
+
+; 
+
+9/  Sobre a utilização da PPC em projeções, ver boxe “Condicionantes de câmbio nas projeções do Banco Central do Brasil e a paridade 
+
+do poder de compra”, do Relatório de Inflação de setembro de 2020.
+
+Dezembro 2021  \  Banco Central do Brasil  \  Relatório de Inflação  \  75
+
+ 
+ 
+A  estimação  dos  parâmetros  do  modelo  foi  realizada  com  dados  trimestrais,  considerando  o  período 
+de  2003T4  a  2019T4.  Excluiu‑se  assim  o  período  inicial  do  regime  de  metas,  caracterizado  por  elevada 
+volatilidade, e o período atípico recente, afetado pela pandemia da Covid‑19. A Tabela 1 detalha a construção 
+das distribuições a priori de cada parâmetro estimado por meio de técnicas bayesianas, bem como apresenta 
+a moda e o intervalo de credibilidade de 90% das distribuições a posteriori estimadas. Em geral, a estimação 
+dessa versão do modelo teve como premissa básica trabalhar com priori pouco restritivas, limitando apenas 
+o suporte. Dessa forma, o resultado da estimação reflete principalmente o ajustamento das equações aos 
+dados observados.
+
+Tabela 1 – Parâmetros estimados
+
+Parâmetros
+
+Descrição da variável �ou do parâmetro
+
+Priori
+
+Posteriori
+
+Distribuição*
+
+Moda
+
+Intervalo de credibilidade (90%)
+
+Curva de Phillips
+
+1
+
+L
+1
+
+α
+
+I
+
+α
+α2
+3
+
+4
+α
+
+5
+α
+
+6
+α
+
+Inércia da inflação de livres
+
+Inércia da inflação IPCA
+
+Inflação importada
+
+Variação do câmbio
+
+Hiato do produto
+
+El Niño
+
+La Niña
+
+α
+Curva IS
+
+1
+
+2
+β
+
+3
+β
+
+4
+β
+
+5
+β
+
+β
+Regra de Taylor
+
+Autorregressivo da IS
+
+Juro real
+
+Resultado primário
+
+Incerteza da economia
+
+Hiato mundial
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+0,23756
+
+0,25568
+
+0,01826
+
+0,01727
+
+0,13866
+
+[0,0057;0,3739]
+
+[0,0067;0,5743]
+
+[0,0008;0,0332]
+
+[0,0044;0,0312]
+
+[0,0865;0,2127]
+
+Uniforme ([0;0,01])
+
+0,00119
+
+[0,000461;0,001984]
+
+Uniforme ([0;0,01])
+
+0,00104
+
+[0;0,002319]
+
+Uniforme ([-2;2])
+
+Uniforme ([0;2])
+
+0,73897
+
+0,54876
+
+Beta ([0,03;0,002])
+
+0,02985
+
+Beta ([0,03;0,005])
+
+0,04073
+
+[0,6773;0,7959]
+
+[0,3903;0,7204]
+
+[0,0267;0,0332]
+
+[0,0321;0,0477]
+
+Uniforme ([0;1])
+
+0,04342
+
+[0;0,0957]
+
+1
+
+2
+
+θ
+
+3
+
+θ
+
+Suavização dos juros, 1ª defasagem
+
+Uniforme ([0;2])
+
+1,45688
+
+Suavização dos juros, 2ª defasagem
+
+Uniforme ([-1;1])
+
+-0,54402
+
+Desvio da expectativa de inflação em relação à meta
+
+Uniforme ([0;8])
+
+1,29981
+
+Expectativas de inflação
+
+θ
+
+1
+
+2
+φ
+
+3
+φ
+
+Inércia das expectativas
+
+Expectativa consistente com o modelo
+
+Inflação passada
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Uniforme ([0;1])
+
+Outras curvas
+
+φ
+
+Diferencial de taxa de juros interna e externa
+
+Uniforme ([0;10])
+
+δ
+γnuci
+γemp
+caged
+
+Coeficiente de proporcionalidade da Nuci
+
+Coeficiente de proporcionalidade do emprego
+
+Coeficiente de proporcionalidade do Caged
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+Uniforme ([0;3])
+
+* As distribuiçoes uniformes são definidas com os limites dos intervalos da distribuição.
+
+γ
+
+0,73260
+
+0,12271
+
+0,04370
+
+1,71813
+
+2,08871
+
+1,08412
+
+0,77959
+
+[1,3873;1,5133]
+
+[-0,5987;-0,481]
+
+[0,8121;1,9078]
+
+[0,629;0,8277]
+
+[0,0749;0,1529]
+
+[0,0019;0,0828]
+
+[0,397;3,196]
+
+[1,8233;2,3782]
+
+[0,953;1,2412]
+
+[0,6842;0,8809]
+
+Estimativa da taxa de juros real neutra
+
+Por meio dessa metodologia é possível estimar a trajetória da taxa de juros real neutra internamente e de 
+forma consistente com a estrutura do modelo. A trajetória estimada com a especificação utilizada neste boxe 
+é apresentada no Gráfico 1, juntamente com a taxa de juros real ex-ante, nesse caso, medida pela expectativa 
+da taxa Selic ao longo de quatro trimestres à frente, desinflacionada pela expectativa de variação do IPCA 
+para o mesmo período, ambas obtidas pela pesquisa Focus. Como indicativo de sensibilidade, o gráfico ainda 
+apresenta o intervalo de mais ou menos dois desvios‑padrão, obtido também por meio do filtro de Kalman. 
+
+76  \  Relatório de Inflação  \  Banco Central do Brasil  \  Dezembro 2021
+
+Essa estimativa indica um processo de queda da taxa de juros real neutra ao longo do tempo, embora com 
+leve aumento na margem, com estimativa pontual de taxa neutra de 3,6% a.a. no quarto trimestre de 202110.
+
+Gráfico 1 – Taxa Selic real ex-ante e taxa de juros real 
+neutra estimada
+% a.a.
+14
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+IV
+2003
+
+II
+2005
+
+IV
+2006
+
+II
+2008
+
+IV
+2009
+
+II
+2011
+
+IV
+2012
+
+II
+2014
+
+IV
+2015
+
+II
+2017
+
+IV
+2018
+
+II
+2020
+
+IV
+2021
+
+Selic real ex-ante
+Taxa de juros real neutra ± 2 d.p.
+Taxa de juros real neutra
+
+Funções de resposta ao impulso
+
+As  propriedades  do  modelo  são  ilustradas  nos  Gráficos  2  a  7  pelas  funções  de  resposta  ao  impulso  de 
+diferentes choques nas variáveis econômicas e seu impacto na inflação, medida pela variação do IPCA. Os 
+gráficos à esquerda apresentam o comportamento da variável em que o choque é aplicado e os da direita 
+o comportamento da inflação acumulada em quatro trimestres. Para se chegar às respostas de inflação, as 
+simulações são realizadas incorporando também o modelo de preços administrados11.
+
+Nos Gráficos 2a e 2b, observa‑se que um aumento temporário de 1 p.p. na taxa Selic, com duração de quatro 
+trimestres, gera um efeito máximo de redução na inflação do IPCA, acumulada em quatro trimestres, de 
+aproximadamente 0,33 p.p., alcançado no sexto trimestre após o choque inicial.
+
+Gráfico 2a – Taxa de juros Selic após choque de 
+política monetária¹
+p.p. a.a.
+1,20
+
+Gráfico 2b – Resposta da inflação ao choque na taxa 
+de juros
+Acumulada em quatro trimestres (p.p.)
+0,00
+
+1,00
+
+0,80
+
+0,60
+
+0,40
+
+0,20
+
+0,00
+
+-0,20
+
+-0,40
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Intervalo de credibilidade de 90%
+1/ Taxa Selic mais alta em 1 p.p. durante quatro trimestres consecutivos e 
+depois segue a regra de Taylor.
+
+Selic
+
+-0,10
+
+-0,20
+
+-0,30
+
+-0,40
+
+-0,50
+
+-0,60
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+8
+7
+6
+Trimestres
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+Uma depreciação do câmbio de 10%, por sua vez, produz um efeito máximo de aproximadamente 1,10 p.p. 
+no IPCA (Gráficos 3a e 3b). Nesse caso, a inflação de preços livres aumenta em torno de 0,7 p.p. e a de preços 
+administrados cerca de 2,1 p.p. Em comparação com a estimação do modelo apresentada nos Relatórios de 
+Inflação de setembro e dezembro de 2020, observa‑se uma elevação do repasse cambial, explicado em boa 
+medida pelo aumento do peso dos derivados de petróleo no IPCA, sobretudo da gasolina.
+
+10/ Para esse trimestre, utilizaram‑se projeções para completar os dados não disponíveis.
+11/ Ver boxe “Reformulação dos modelos de projeção de médio prazo dos preços administrados”, no Relatório de Inflação de setembro 
+
+de 2017.
+
+Dezembro 2021  \  Banco Central do Brasil  \  Relatório de Inflação  \  77
+
+Gráfico 3a – Variação da taxa de câmbio após choque 
+de depreciação cambial¹
+Desvio (%)
+12
+
+Gráfico 3b – Resposta da inflação ao choque de 
+depreciação cambial
+Acumulada em quatro trimestres (p.p.)
+1,60
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+1/ Depreciação de 10% na taxa de câmbio em um trimestre.
+
+Trimestres
+
+Taxa de câmbio
+
+1,40
+
+1,20
+
+1,00
+
+0,80
+
+0,60
+
+0,40
+
+0,20
+
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+No caso da curva IS, um choque negativo de 1 p.p. no hiato do produto (que pode ser entendido como um 
+choque de demanda) ocasiona redução de 0,45 p.p. na inflação do IPCA após quatro trimestres (Gráficos 4a 
+e 4b).
+
+Gráfico 4a – Hiato do produto após choque no próprio 
+hiato¹
+p.p.
+
+Gráfico 4b – Resposta da inflação ao choque de hiato 
+no produto
+Acumulada em quatro trimestres (p.p.)
+
+0,20
+
+0,00
+
+-0,20
+
+-0,40
+
+-0,60
+
+-0,80
+
+-1,00
+
+-1,20
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Intervalo de credibilidade de 90%
+1/ Queda de 1 p.p. no hiato do produto doméstico durante um trimestre.
+
+Hiato
+
+Trimestres
+
+0,00
+
+-0,10
+
+-0,20
+
+-0,30
+
+-0,40
+
+-0,50
+
+-0,60
+
+-0,70
+
+-0,80
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+8
+7
+6
+Trimestres
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+A variação nos preços das commodities internacionais produz impactos de tamanhos distintos na inflação 
+doméstica. Os cenários a seguir representam os efeitos da variação dos preços de commodities em dólares, 
+assumindo que não há reflexos na taxa de câmbio. Nesse caso, uma elevação de 10% no preço das commodities 
+agrícolas, medida pelo IC‑Br Agropecuária em dólares, tem um impacto máximo de 0,17 p.p. na inflação (Gráficos 
+5a e 5b), enquanto um choque de mesma magnitude no preço de commodities metálicas tem efeito máximo 
+de 0,04 p.p. (Gráficos 6a e 6b). A diferença, nesse caso, advém dos pesos diferentes dos dois grupos no IC‑Br. 
+Por sua vez, uma elevação de 10% no preço do petróleo, medido pelo Brent, tem impacto da ordem de 0,66 
+p.p. na inflação após quatro trimestres (Gráficos 7a e 7b), com efeito significativo nos preços administrados, 
+já no primeiro trimestre por meio dos derivados de petróleo (gasolina, gás de bujão e diesel), e nos preços 
+livres por meio da elevação do IC‑Br Energia, captado por uma equação auxiliar. Portanto, o petróleo é a 
+commodity que tem mais efeito sobre a inflação, seguido pelas commodities agrícolas.
+
+Gráfico 5a – Variação do IC-Br Agropecuária após 
+choque de commodities¹
+(%)
+12
+
+Gráfico 5b – Resposta da inflação ao choque de IC-Br 
+Agropecuária
+Acumulada em quatro trimestres (p.p.)
+0,35
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+IC-Br Agropecuária
+
+1/ Aumento de 10% nos preços das commodities, medido pelo IC-Br 
+Agropecuárias, em um trimestre.
+
+78  \  Relatório de Inflação  \  Banco Central do Brasil  \  Dezembro 2021
+
+0,30
+
+0,25
+
+0,20
+
+0,15
+
+0,10
+
+0,05
+
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+Gráfico 6a – Variação do IC-Br Metal após choque de 
+commodities¹
+(%)
+12
+
+Gráfico 6b – Resposta da inflação ao choque de IC-Br 
+Metal
+Acumulada em quatro trimestres (p.p.)
+0,10
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+10 11 12 13 14 15 16
+
+9
+8
+7
+Trimestres
+
+IC-Br Metal
+
+1/ Aumento de 10% nos preços das commodities, medido pelo IC-Br Metal, em 
+um trimestre.
+
+0,09
+
+0,08
+
+0,07
+
+0,06
+
+0,05
+
+0,04
+
+0,03
+
+0,02
+
+0,01
+
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+Trimestres
+
+Gráfico 7a – Variação do petróleo tipo Brent (em USD 
+por barril) após choque de commodities¹
+(%)
+12
+
+Gráfico 7b – Resposta da inflação ao choque nos 
+preços do petróleo Brent
+Acumulada em quatro trimestres (p.p.)
+0,80
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+9
+8
+7
+Trimestres
+
+10 11 12 13 14 15 16
+
+Petróleo Brent
+
+1/ Aumento de 10% no preço do petróleo tipo Brent (em dólares por barris) em 
+um trimestre.
+
+Choques de commodities e política monetária
+
+0,70
+
+0,60
+
+0,50
+
+0,40
+
+0,30
+
+0,20
+
+0,10
+
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+8
+
+7
+
+9
+Trimestres
+
+10 11 12 13 14 15 16
+
+IPCA
+
+Intervalo de credibilidade de 90%
+
+A dinâmica da resposta da inflação a choques de custos e à política monetária é de grande importância para 
+a calibragem da condução da política monetária. O Gráfico 8 apresenta a resposta da inflação acumulada em 
+quatro trimestres a dois choques. No primeiro, há uma elevação dos preços das commodities em 10% (IC‑Br 
+e petróleo, conjuntamente), sem reação da política monetária. No segundo, simula‑se um aumento da taxa 
+Selic pelo período de quatro trimestres, considerando duas magnitudes: 1 p.p. e 2 p.p. Nesse caso, o efeito 
+(negativo) na inflação é apresentado em valores absolutos para facilitar a comparação.
+
+Comparando  as  funções  respostas,  nota‑se  o  descasamento  entre  o  impacto  imediato  do  choque  de 
+commodities na inflação e a resposta mais lenta desta à política monetária. O efeito do choque de commodities 
+é mais intenso nos primeiros quatro trimestres, enquanto o da política monetária torna‑se mais significativo 
+a partir do quarto trimestre. Enquanto o choque de commodities gera alta na inflação na ordem de 0,6 p.p. 
+logo no primeiro trimestre e 0,9 p.p. após quatro trimestres, as elevações da Selic em 1 p.p. e 2 p.p. mitigam 
+apenas cerca de 0,3 p.p. e 0,6 p.p., respectivamente, após um ano. Contudo, após esse período, a reação da 
+política monetária, que gera respostas mais persistentes, supera, no caso de aumento em 2 p.p., os efeitos 
+do choque de commodities, fazendo com que o efeito líquido sobre o nível de preços seja negativo. Portanto, 
+fica evidente que: i. mesmo com reação imediata da política monetária, tende a prevalecer no curto prazo 
+o impacto inflacionário do choque de custos; e ii. reações da taxa de juros que contrabalancem com maior 
+intensidade os efeitos de curto prazo do choque de custos podem gerar efeitos excessivos sobre a inflação 
+em um segundo momento.
+
+Dezembro 2021  \  Banco Central do Brasil  \  Relatório de Inflação  \  79
+
+Gráfico 8 – Resposta da inflação a choques de 
+commodities e de política monetária
+Acumulada em quatro trimestres (p.p.)
+1,00
+0,90
+0,80
+0,70
+0,60
+0,50
+0,40
+0,30
+0,20
+0,10
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+9
+8
+Trimestres
+
+10 11 12 13 14 15 16
+
+Choque de 10% nas commodities (todas)
+Elevação de 1p.p. na Selic por 4T *
+Elevação de 2p.p. na Selic por 4T *
+
+* Resposta em valores absolutos.
+
+Considerações finais
+
+Visando manter o nível de transparência que caracteriza as ações de política monetária, este boxe apresenta 
+informações sobre a revisão do modelo semiestrutural agregado de pequeno porte utilizado pelo BCB.
+
+Essa revisão não alterou significativamente a estrutura do modelo e concentrou‑se em aperfeiçoar pontos 
+específicos  da  estimação.  Além  de  funções  de  resposta  ao  impulso  usuais,  fez‑se  exercício  que  procura 
+mostrar o descasamento temporal entre os efeitos de choques de custos, no caso preço de commodities, e 
+os da reação de política monetária.
+
+Cabe enfatizar que, assim como em outros modelos utilizados pelo BCB para efetuar análises de cenários e 
+projeções, as especificações do modelo e estimação são continuamente reavaliadas e revisadas.
+
+Ressalta‑se  ainda  que  as  projeções  apresentadas  nos  documentos  oficiais  do  Copom  são  resultado  da 
+combinação dos seguintes elementos: i. projeções de especialistas para preços livres para horizontes mais 
+curtos e para preços administrados até determinado horizonte; ii. utilização de modelos macroeconômicos, de 
+modelos específicos para os itens de preços administrados e de modelos satélites; iii. emprego de determinadas 
+trajetórias para os condicionantes; e iv. avaliação sobre o estado e perspectivas da economia.
+
+80  \  Relatório de Inflação  \  Banco Central do Brasil  \  Dezembro 2021
+
+

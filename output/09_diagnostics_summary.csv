@@ -1,0 +1,11 @@
+variant,mean_diff_ipca,mae_ipca,mean_diff_livres,mae_livres,max_abs_ipca
+baseline,0.07,0.33,0.09,0.43,0.71
+gap anchor (RPM),-0.11,0.25,-0.15,0.32,0.82
+BCB coefficients,0.17,0.4,0.23,0.52,0.82
+RONI,-0.14,0.33,-0.19,0.44,0.89
+perfect nowcast,-0.03,0.25,-0.04,0.32,0.71
+gap anchor + RONI,-0.31,0.4,-0.42,0.54,0.93
+gap anchor + BCB coefficients,-0.03,0.26,-0.04,0.34,0.79
+gap anchor + RONI + BCB coefficients,-0.08,0.27,-0.1,0.36,0.8
+gap anchor + perfect nowcast,-0.2,0.27,-0.28,0.37,0.83
+gap anchor + RONI + perfect nowcast,-0.4,0.43,-0.55,0.59,1.05

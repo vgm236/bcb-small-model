@@ -1,0 +1,21 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# runtime log of the desktop interface
+app/desktop_app.log
+
+# derived packages (rebuilt by tools/make_package.py and tools/make_email_package.py)
+BCB_model_source.zip
+email_package/
+
+# editor and OS files
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini
+
+# environment-repair and self-test logs (local paths, not part of the results)
+output/pip_*.log
+output/desktop_selftest.log

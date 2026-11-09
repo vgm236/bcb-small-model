@@ -1,0 +1,143 @@
+month,flag,surcharge
+2015-01,vermelha p1,30.0
+2015-02,vermelha p1,30.0
+2015-03,vermelha p1,55.0
+2015-04,vermelha p1,55.0
+2015-05,vermelha p1,55.0
+2015-06,vermelha p1,55.0
+2015-07,vermelha p1,55.0
+2015-08,vermelha p1,55.0
+2015-09,vermelha p1,45.0
+2015-10,vermelha p1,45.0
+2015-11,vermelha p1,45.0
+2015-12,vermelha p1,45.0
+2016-01,vermelha p1,45.0
+2016-02,vermelha p2,45.0
+2016-03,amarela,15.0
+2016-04,verde,0.0
+2016-05,verde,0.0
+2016-06,verde,0.0
+2016-07,verde,0.0
+2016-08,verde,0.0
+2016-09,verde,0.0
+2016-10,verde,0.0
+2016-11,amarela,15.0
+2016-12,verde,0.0
+2017-01,verde,0.0
+2017-02,verde,0.0
+2017-03,amarela,20.0
+2017-04,vermelha p1,30.0
+2017-05,vermelha p1,30.0
+2017-06,verde,0.0
+2017-07,amarela,20.0
+2017-08,vermelha p1,30.0
+2017-09,amarela,20.0
+2017-10,vermelha p2,35.0
+2017-11,vermelha p2,50.0
+2017-12,vermelha p1,30.0
+2018-01,verde,0.0
+2018-02,verde,0.0
+2018-03,verde,0.0
+2018-04,verde,0.0
+2018-05,amarela,10.0
+2018-06,vermelha p2,50.0
+2018-07,vermelha p2,50.0
+2018-08,vermelha p2,50.0
+2018-09,vermelha p2,50.0
+2018-10,vermelha p2,50.0
+2018-11,amarela,10.0
+2018-12,verde,0.0
+2019-01,verde,0.0
+2019-02,verde,0.0
+2019-03,verde,0.0
+2019-04,verde,0.0
+2019-05,amarela,10.0
+2019-06,verde,0.0
+2019-07,amarela,15.0
+2019-08,vermelha p1,40.0
+2019-09,vermelha p1,40.0
+2019-10,amarela,15.0
+2019-11,vermelha p1,41.69
+2019-12,amarela,13.43
+2020-01,amarela,13.43
+2020-02,verde,0.0
+2020-03,verde,0.0
+2020-04,verde,0.0
+2020-05,verde,0.0
+2020-06,verde,0.0
+2020-07,verde,0.0
+2020-08,verde,0.0
+2020-09,verde,0.0
+2020-10,verde,0.0
+2020-11,verde,0.0
+2020-12,vermelha p2,62.43
+2021-01,amarela,13.43
+2021-02,amarela,13.43
+2021-03,amarela,13.43
+2021-04,amarela,13.43
+2021-05,vermelha p1,41.69
+2021-06,vermelha p2,62.43
+2021-07,vermelha p2,94.92
+2021-08,vermelha p2,94.92
+2021-09,escassez hã­drica,142.0
+2021-10,escassez hã­drica,142.0
+2021-11,escassez hã­drica,142.0
+2021-12,escassez hã­drica,142.0
+2022-01,escassez hã­drica,142.0
+2022-02,escassez hã­drica,142.0
+2022-03,escassez hã­drica,142.0
+2022-04,escassez hã­drica,71.0
+2022-05,verde,0.0
+2022-06,verde,0.0
+2022-07,verde,0.0
+2022-08,verde,0.0
+2022-09,verde,0.0
+2022-10,verde,0.0
+2022-11,verde,0.0
+2022-12,verde,0.0
+2023-01,verde,0.0
+2023-02,verde,0.0
+2023-03,verde,0.0
+2023-04,verde,0.0
+2023-05,verde,0.0
+2023-06,verde,0.0
+2023-07,verde,0.0
+2023-08,verde,0.0
+2023-09,verde,0.0
+2023-10,verde,0.0
+2023-11,verde,0.0
+2023-12,verde,0.0
+2024-01,verde,0.0
+2024-02,verde,0.0
+2024-03,verde,0.0
+2024-04,verde,0.0
+2024-05,verde,0.0
+2024-06,verde,0.0
+2024-07,amarela,18.85
+2024-08,verde,0.0
+2024-09,vermelha p1,44.63
+2024-10,vermelha p2,78.77
+2024-11,amarela,18.85
+2024-12,verde,0.0
+2025-01,verde,0.0
+2025-02,verde,0.0
+2025-03,verde,0.0
+2025-04,verde,0.0
+2025-05,amarela,18.85
+2025-06,vermelha p1,44.63
+2025-07,vermelha p1,44.63
+2025-08,vermelha p2,78.77
+2025-09,vermelha p2,78.77
+2025-10,vermelha p1,44.63
+2025-11,vermelha p1,44.63
+2025-12,amarela,18.85
+2026-01,verde,0.0
+2026-02,verde,0.0
+2026-03,verde,0.0
+2026-04,verde,0.0
+2026-05,amarela,18.85
+2026-06,amarela,18.85
+2026-07,amarela,18.85
+2026-08,amarela,18.85
+2026-09,amarela,18.85
+2026-10,verde,0.0

@@ -1,0 +1,39 @@
+ipca                     code=433    n=  381  1995-01-01 .. 2026-09-01
+ipca_livres              code=11428  n=  381  1995-01-01 .. 2026-09-01
+ipca_monit               code=4449   n=  381  1995-01-01 .. 2026-09-01
+ipca_12m                 code=13522  n=  381  1995-01-01 .. 2026-09-01
+meta_inflacao            code=13521  n=   28  1999-01-01 .. 2026-01-01
+selic_meta_daily         code=432    n=10101  1999-03-05 .. 2026-10-29
+selic_efetiva_aa         code=4189   n=  382  1995-01-01 .. 2026-10-01
+ptax_venda_mensal        code=3698   n=  381  1995-01-01 .. 2026-09-01
+icbr                     code=27574  n=  345  1998-01-01 .. 2026-09-01
+icbr_agro                code=27575  n=  345  1998-01-01 .. 2026-09-01
+icbr_metal               code=27576  n=  345  1998-01-01 .. 2026-09-01
+icbr_energia             code=27577  n=  345  1998-01-01 .. 2026-09-01
+pib_sa_idx               code=22109  n=  122  1996-01-01 .. 2026-04-01
+nuci_fgv_sa              code=28561  n=  309  2001-01-01 .. 2026-09-01
+nuci_fgv_nsa             code=24352  n=  309  2001-01-01 .. 2026-09-01
+desocup_pnadc            code=24369  n=  174  2012-03-01 .. 2026-08-01
+desocup_pme              code=10777  n=  172  2001-11-01 .. 2016-02-01
+caged_estoque            code=28763  n=  380  1995-01-01 .. 2026-08-01
+prim_gov_central_rs      code=4639   n=  381  1995-01-01 .. 2026-09-01
+prim_gov_central_pib12   code=5783   n=  381  1995-01-01 .. 2026-09-01
+prim_consolidado_rs      code=4649   n=  298  2001-12-01 .. 2026-09-01
+pib_nominal_mensal       code=4380   n=  381  1995-01-01 .. 2026-09-01
+PIB SA 122 1º trimestre 1996 .. 2º trimestre 2026
+PIB NSA 122 1º trimestre 1996 .. 2º trimestre 2026
+PIB nominal 122 1º trimestre 1996 .. 2º trimestre 2026
+PNADC 174 jan-fev-mar 2012 .. jun-jul-ago 2026
+Focus 12m S: 9457 2001-12-12 2026-10-23
+Focus 12m N: 9481 2001-11-07 2026-10-23
+Focus Selic meetings: 89270 2004-11-18 2026-10-23
+Focus Selic monthly: 12514 2001-11-06 2005-12-14
+Focus Selic annual: 39632 2000-01-03 2026-10-23
+Focus IPCA annual: 48732
+Copom meetings: 289 1996-06-26 2026-09-16
+EMBI+: 10126 1994-04-29 2024-07-30
+ONI: 920 ['DJF', 1950, 25.01, -1.32] ['JAS', 2026, 29.12, 2.16]
+OECD QNA rows: 41969
+Fed funds (OECD MEI): 382 1995-01-01 2026-10-01
+done in 1s
+projection inputs downloaded

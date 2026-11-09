@@ -1,0 +1,9 @@
+{
+ "neutral_rate": 5.0,
+ "climate": "realtime",
+ "climate_index": "oni",
+ "coefficients": "estimated",
+ "gap_anchor": "rpm",
+ "adm_profile": "uniform",
+ "nowcast": "focus"
+}

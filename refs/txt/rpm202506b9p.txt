@@ -1,0 +1,1061 @@
+Atualização	do	modelo	para	projeção	de	médio	prazo	dos	
+preços administrados
+
+Este  boxe  apresenta  atualização  do  modelo  de  projeção  de  médio  prazo  para  preços  administrados.  São 
+apresentadas as equações que representam a dinâmica dos 24 itens que compõem a cesta de preços administrados, 
+acompanhadas  de  explicações  mais  detalhadas  para  os  itens  de  maior  peso.  As  propriedades  do  modelo  são 
+ilustradas por meio de funções de resposta a impulso a choques na taxa de câmbio, no preço do petróleo, em 
+preços livres e no Índice de Valor das Despesas Assistenciais (IVDA).
+
+Este boxe apresenta a especificação atual do modelo para geração de projeções e cenários de médio prazo 
+para os preços administrados.1 Esse modelo faz parte do conjunto de ferramentas utilizadas pelo Copom para 
+projeções de inflação. Em particular, as projeções e cenários de inflação advindos dos modelos semiestruturais 
+são formados considerando o conjunto de equações do modelo de administrados. Desse modo, as projeções 
+geradas para a inflação cheia incorporam os efeitos de feedback entre os preços livres e os administrados.
+
+Os preços administrados referem-se aos componentes do Índice Nacional de Preços ao Consumidor Amplo (IPCA)  
+cujos  ajustes  são  determinados  por  contratos,  órgãos  públicos  ou  agências  reguladoras,  como  tarifas  de 
+energia elétrica e planos de saúde. Também são considerados administrados os preços de combustíveis2.   
+Em geral, os preços administrados apresentam menor sensibilidade às condições econômicas de mercado e 
+introduzem maior inércia no comportamento da inflação por conta da presença, em muitos casos, de cláusulas 
+de indexação à inflação passada em seus contratos e regulamentos. Além disso, eles são importante canal 
+de repasse de variações da taxa de câmbio e de preços de petróleo.
+
+As projeções de inflação do Banco Central do Brasil (BC) são feitas a partir de combinações das projeções 
+dos modelos de médio prazo com projeções de curto prazo de especialistas3. Os especialistas dispõem de 
+informações específicas que são relevantes para a dinâmica de curto prazo, mas são difíceis de incorporar 
+adequadamente em modelos macroeconômicos. De modo geral, as projeções dos especialistas para o curto 
+prazo são construídas usando abordagem bottom-up, isto é, projetando-se variáveis em nível de desagregação 
+maior para depois então agregá-las. Essas projeções também incorporam o conhecimento que se tem sobre 
+detalhes  metodológicos  da  compilação  dos  dados.  No  caso  de  preços  administrados,  o  conhecimento  de 
+aspectos  institucionais  é  altamente  relevante.  Para  muitos  itens,  existem  regras  que  determinam  o  seu 
+reajuste. As projeções de especialistas para preços administrados tendem a ser empregadas para horizontes 
+em torno de quatro ou cinco trimestres. São mais longos do que para os preços livres, em virtude da maior 
+relevância relativa das informações dos especialistas.
+
+No modelo de projeção de médio prazo para administrados, cada item é representado por uma equação 
+específica, desenhada para capturar as particularidades de seu comportamento. A definição dessas equações 
+leva em conta as regras de reajuste específicas e as metodologias de mensuração empregadas pelo Instituto 
+Brasileiro de Geografia e Estatística (IBGE). Em geral, não são equações estimadas, mas calibradas a partir do 
+arcabouço institucional vigente. O modelo consiste em um conjunto de 24 equações de periodicidade trimestral 
+que descrevem a dinâmica idiossincrática desses itens e que se integram aos modelos semiestruturais de 
+pequeno porte utilizados pelo BC. 
+
+1/  A última divulgação desse modelo foi no boxe Reformulação dos modelos para projeção de médio prazo de preços administrados, 
+
+do Relatório de Inflação de setembro de 2017.
+
+2/  Exceto etanol, que integra o segmento de “bens industriais” no IPCA.
+3/  Ver o boxe Sistema de análise e projeções do BC, do Relatório de Inflação de março de 2023.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  79
+
+Na comparação com o modelo divulgado em 2017, a sazonalidade das equações e os valores dos parâmetros 
+foram  recalibrados  para  refletir  melhor  as  condições  atuais.  Além  disso,  foram  introduzidas  mudanças 
+metodológicas  nas  equações  de  alguns  itens.  Por  exemplo,  na  equação  dos  preços  de  energia  elétrica 
+residencial, trocou-se a especificação baseada em estimação econométrica por uma versão calibrada de acordo 
+com peso de cada distribuidora no IPCA e o peso de Itaipu em cada distribuidora.  No caso dos combustíveis, 
+as equações permanecem semelhantes às do modelo anterior, mas agora consideram que o ICMS depende 
+somente do IPCA e é reajustado apenas no 1º trimestre de cada ano, e que os preços de etanol e de biodiesel 
+acompanham os preços ao produtor de gasolina e de óleo diesel, respectivamente. Também foram eliminadas 
+algumas variáveis explicativas para tornar o modelo mais parcimonioso.
+
+Os  modelos  de  preços  administrados  são  revisados  continuamente.  Modificações  são  introduzidas  de 
+forma incremental à medida que mudanças nos mecanismos de reajuste dos itens vão sendo identificadas, 
+assegurando maior aderência às dinâmicas de formação de preços. Essa abordagem contínua contribui para 
+maior precisão das projeções e para o alinhamento das análises às condições vigentes.
+
+A seguir, apresenta-se descrição sucinta das equações dos produtos de maior peso no IPCA. Em seguida, 
+são exibidas as funções de resposta ao impulso em relação a choques nos preços do petróleo, na taxa de 
+câmbio, nos preços livres e no IVDA. Por fim, são apresentadas as equações detalhadas correspondentes a 
+cada item administrado.
+
+A) Descrição das equações de itens selecionados 
+
+Energia	elétrica	residencial	(peso	3,78%	no	IPCA)
+
+As  concessionárias  de  energia  elétrica  têm  seus  reajustes  tarifários  ordinários4  definidos  pela  Agência 
+Nacional de Energia Elétrica (ANEEL) anualmente no mês de aniversário do contrato de concessão. A ANEEL 
+calcula o reajuste com base na evolução dos custos não gerenciáveis, chamados de “Parcela A”, e dos custos 
+gerenciáveis, chamados de “Parcela B”, ambos relacionados à operação das distribuidoras. A parcela de custos 
+gerenciáveis costuma ser atualizada por algum índice de inflação (geralmente IPCA ou IGP-M). A parcela de 
+custos não gerenciáveis é composta pelo custo de energia, pelos encargos setoriais (o maior dos quais é 
+definido anualmente na conta CDE5) e pelos custos de transmissão6. 
+
+A  variação  dos  custos  de  energia  depende  do  tipo  de  contrato:  os  contratos  regulares,  de  longo  prazo, 
+costumam ser corrigidos anualmente por índices de inflação; a energia de Itaipu tem o seu preço em dólares 
+ajustado  anualmente  para  o  ano  seguinte  (a  energia  de  Itaipu  é  cerca  de  8%  da  energia  utilizada  pelos 
+consumidores cativos, impondo um repasse de câmbio de cerca de 8% na parcela do custo da energia); e o 
+mercado de curto prazo, utilizado para ajustar diferenças entre a energia contratada e o consumo efetivo, é 
+remunerado pelo Preço de Liquidação das Diferenças (PLD)7 .
+
+O reajuste final das tarifas reflete a soma da evolução dos custos das Parcelas A e B, com eventuais ajustes 
+para  compensar  diferenças  entre  as  projeções  e  os  valores  efetivamente  realizados  no  período  anterior 
+(chamados “efeitos financeiros”).
+
+Os componentes mais complexos da formação dos preços de energia elétrica, como os custos de transmissão 
+e encargos setoriais, são avaliados pelo especialista no horizonte de projeção de prazos mais curtos. Dessa 
+
+4/  Além  do  reajuste  ordinário  anual,  existem  os  (i)  reajustes  extraordinários,  aplicados  em  situações  excepcionais  que  levam  a 
+desequilíbrio econômico-financeiro dos contratos, e a (ii) revisão tarifária, que ocorre a cada 4 ou 5 anos e que reavalia os custos 
+operacionais e investimentos das distribuidoras. Essas duas outras hipóteses de reajustes não são consideradas no modelo.
+
+5/  Conta de Desenvolvimento Econômico. É um encargo setorial destinado principalmente a promover políticas públicas no setor elétrico, 
+como universalização do acesso à energia, subsídios para consumidores de baixa renda e financiamento de fontes renováveis.
+6/  Parte dos custos de transmissão é calculada anualmente pela ANEEL e a outra parte é reajuste com a inflação passada, geralmente 
+
+IPCA ou IGP-M.
+
+7/  Preço de liquidação das diferenças, que tem limites máximo e mínimo fixados anualmente pela ANEEL e que depende da escassez 
+
+horária de energia.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  80
+
+forma, a modelagem de médio prazo para energia elétrica adota uma abordagem mais simplificada. Nesse 
+modelo, considera-se a parcela da energia proveniente de Itaipu destinada a cada estado, com base em seus 
+contratos específicos, enquanto o restante da variação de preços é atualizado utilizando o IPCA acumulado 
+nos  quatro  trimestres  anteriores.  Além  disso,  a  sazonalidade  agregada  aplicada  reflete  o  peso  de  cada 
+concessionária de energia elétrica e o peso de energia elétrica residencial em cada região metropolitana 
+que compõe o IPCA.
+
+Além dos reajustes nas tarifas de energia elétrica, o IPCA capta também as bandeiras tarifárias8. O modelo 
+aqui descrito se refere apenas à parcela da tarifa ordinária. O adicional de bandeira é avaliado pelo especialista 
+no curto prazo. Para o médio prazo repete-se sazonalmente o padrão dos 4 últimos trimestres da projeção 
+de curto prazo do especialista, de forma que as projeções acumuladas em 4 trimestres das tarifas de energia 
+elétrica não sejam afetadas. 
+
+As equações utilizadas e seus parâmetros são apresentadas no final deste boxe.
+
+Produtos	farmacêuticos	(peso	3,46%	no	IPCA)
+
+Os  reajustes  dos  preços  dos  medicamentos  são  regulados  pela  Câmara  de  Regulação  do  Mercado  de 
+Medicamentos (CMED), vinculado à Agência Nacional de Vigilância Sanitária (Anvisa). A CMED estabelece 
+uma tabela de Preço Máximo ao Consumidor (PMC) e essa tabela é reajustada anualmente em abril com 
+metodologia conhecida. 
+
+O reajuste é calculado como: 
+
+onde VPP é a variação percentual no preço (“reajuste” dos produtos farmacêuticos); IPCA é a taxa da inflação 
+acumulada  em  12  meses  até  a  divulgação  do  reajuste;  Fator  X  é  o  fator  de  produtividade  repassado  ao 
+consumidor9; o Fator Z é fator de ajuste de preços relativos intrassetores10. Já o Fator Y é o fator que ajusta 
+os preços entre os setores11. 
+
+Por parcimônia, abstrai-se para as projeções de médio prazo da influência dos fatores X e Z. Essas são variáveis 
+difíceis de prever e representar num modelo de médio prazo, lembrando que, para prazos mais curtos, a 
+projeção utilizada é a do especialista, que é capaz de fazer projeções para esses fatores usando um conjunto 
+mais amplo de informações. O Fator Y é calculado de acordo com a seguinte fórmula, que é uma simplificação 
+linear da regra de reajuste do fator:
+
+𝐹𝑎𝑡𝑜𝑟 𝑌𝑡
+
+Assim,  o  reajuste  projetado  é  a  projeção  para  a  variação  do  IPCA  acumulada  em  12  meses  no  trimestre 
+imediatamente anterior adicionado do Fator Y.  Também são considerados elementos de sazonalidade do 
+repasse ao longo dos trimestres. O trimestre de maior impacto é o segundo do ano.
+
+8/  As bandeiras tarifárias são um adicional sobre a tarifa de energia elétrica para sinalizar ao consumidor o aumento do custo da energia 
+naquele mês. Elas são definidas na semana anterior ao mês da aplicação e variam conforme a intensidade da escassez. Em geral, 
+podem adicionar entre 2% e 10% à tarifa básica de energia elétrica. 
+
+9/  Ele é sempre maior ou igual a zero, então o Fator X sempre não altera ou reduz o reajuste calculado. O Fator X é calculado pela 
+Secretaria de Reformas Econômicas do Ministério da Fazenda com base nas projeções de ganhos de produtividade das empresas 
+produtoras de medicamentos (para detalhes do cálculo, ver anexo da Resolução CMED nº 1 de 2015).
+
+10/ Setores com maior proporção de medicamentos genéricos são considerados mais competitivos e terão maior Fator Z.
+11/ Para o cálculo completo ver anexo da Resolução CMED nº 1 de 2015.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  81
+
+ 
+ 
+ 
+ 
+ 
+      
+ 
+ 
+ 
+A variação dos preços de produtos farmacêuticos então é modelada como:
+
+ são dummies trimestrais e as constantes representam a sazonalidade do repasse da alta dos 
+onde 
+medicamentos. Considera-se que o reajuste é integralmente repassado até o 1º trimestre do ano seguinte.
+
+ a 
+
+Plano	de	saúde	(peso	4,06%	no	IPCA)
+
+De acordo com a Nota Técnica IBGE 1/200512, para o cálculo da inflação do subitem “plano de saúde”, o IBGE 
+pesquisa mensalmente, entre as operadoras de saúde mais representativas de cada região, o percentual de 
+reajuste aplicado sobre as mensalidades dos contratos que estão fazendo aniversário no mês da pesquisa. 
+Na prática, entretanto, é informado o reajuste máximo fixado pela Agência Nacional de Saúde Suplementar 
+(ANS)13 para os planos de saúde individuais e familiares.14 Este reajuste anual é divulgado usualmente entre 
+os meses de maio e junho, para a aplicação nos doze meses seguintes, de acordo com a seguinte fórmula:
+
+onde  o  subscrito  A  representa  o  ano  em  questão, 
+  é  o  Índice  de  Valor  das  Despesas  Assistenciais 
+ é a variação no ano anterior do IPCA excluindo planos de 
+calculado para o ano A, e 
+saúde.  O IVDA é calculado a partir da combinação dos componentes Variação das Despesas Assistenciais 
+(VDA), Fator de Ganhos de Eficiência (FGE) e Variação da Receita por Faixa Etária (VFE). 
+
+O IBGE incorpora este reajuste no IPCA linearmente ao longo dos 12 meses seguintes, representando o fato 
+de  os  reajustes  serem  aplicados  no  mês  de  aniversário  de  cada  contrato,  distribuídos  uniformemente  ao 
+longo do ano por hipótese.
+
+Correspondentemente,  no  modelo  trimestral  para  inflação  de  planos  de  saúde,  um  quarto  do  reajuste  é 
+aplicado no 2º trimestre do ano do reajuste, e os outros três quartos ao longo dos três trimestres subsequentes, 
+conforme a equação abaixo:
+
+Para  projetar  o  IVDA  do  ano  seguinte,  utiliza-se  julgamento  do  especialista.  Daí  em  diante,  o  IVDA  é 
+representado de forma simplificada no modelo como uma combinação de inércia e indexação ao IPCA, de 
+acordo com a seguinte equação de periodicidade anual:
+
+Combustíveis	(peso	total	6,96%	no	IPCA)
+
+Como  nas  versões  anteriores,  os  preços  de  combustíveis  ao  consumidor  são  projetados  considerando  a 
+evolução das parcelas que os compõem. Em geral, essas parcelas são: preço ao distribuidor do combustível, 
+combustível renovável adicionado, impostos federais, impostos estaduais e margem de comercialização.
+
+O  comportamento  dos  preços  ao  distribuidor  é  muito  dependente  da  política  de  preços  da  Petrobras. 
+Recentemente,  a  Petrobras  mudou  sua  política  de  paridade  de  preço  de  importação  (PPI)  para  levar  em 
+
+12/ Ver também "Sistema Nacional de Índices de Preços ao Consumidor – Métodos de Cálculo”, de 2020.
+13/ A metodologia para o cálculo do reajuste máximo e dos seus componentes pode ser consultada no anexo da Resolução CMED nº1 
+
+de 2015 e Resolução Normativa nº 441 de 2018 da ANS. 
+
+14/ Também existem outros planos de impacto bastante reduzido no IPCA, chamados “antigos” por terem sido contratados antes da 
+
+Lei n° 9.656, de 1998 e que têm seu reajuste divulgado em junho/julho.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  82
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+consideração fatores locais, como o custo de produção no Brasil e a participação da Petrobras no mercado, 
+em vez de repassar diretamente as flutuações internacionais15. Ainda assim, variações no preço internacional 
+continuam sendo importantes para o preço brasileiro (Gráfico 1), o que justifica mantê-las no modelo de 
+médio prazo.
+
+Gráfico 1 – Preços domésticos de gasolina ao produtor 
+e de petróleo
+R$/litro
+
+4,5
+
+4,0
+
+3,5
+
+3,0
+
+2,5
+
+2,0
+
+1,5
+
+1,0
+
+0,5
+
+0,0
+
+2005
+
+2007
+
+2009
+
+2011
+
+2013
+
+2015
+
+2017
+
+2019
+
+2021
+
+2023
+
+2025
+
+Gasolina ao produtor (Petrobras)
+
+Petróleo tipo Brent
+
+Fonte: Petrobras e Bloomberg
+
+Como  já  mencionado,  as  projeções  de  curto  prazo  para  preços  de  combustíveis  (e  dos  outros  preços 
+administrados)  são  realizadas  pelo  especialista,  que  avalia  a  convergência  do  preço  internacional  dos 
+combustíveis em relação ao preço do petróleo, a convergência do preço da Petrobras em relação ao preço 
+internacional dos combustíveis16 e demais fatores relevantes. Para o médio prazo, supõe-se que os preços 
+relativos de combustíveis da Petrobras e do preço da gasolina no mercado internacional ante o preço do 
+petróleo estarão em equilíbrio e que as variações do preço da Petrobras seguem, a partir de então, as variações 
+do preço internacional do petróleo em reais. 
+
+Para os biocombustíveis adicionados, supõe-se que seus preços acompanhem o preço da Petrobras. Para os 
+impostos estaduais (ICMS), assume-se que são reajustados no primeiro trimestre de cada ano pela variação do 
+IPCA do ano anterior. Supõe-se ainda que os impostos federais são fixos e que a margem de comercialização 
+acompanha  a  inflação.  No  caso  do  gás  de  botijão,  assume-se  que  a  margem  de  comercialização  cresce 
+exclusivamente no terceiro trimestre de cada ano, devido ao dissídio da categoria.
+
+Para “gás veicular”, optou-se por estimar uma regressão linear entre essa variável, a inflação acumulada nos 
+últimos 4 trimestres e as variações de preços do petróleo em reais e do item “gasolina” do IPCA. Estratégia 
+análoga foi utilizada para “gás encanado”, onde a regressão considerou a inflação acumulada nos últimos 4 
+trimestres, as variações de preços do petróleo em reais e do item “gás de botijão” do IPCA.
+
+Emplacamento	e	licença	e	Conselho	de	classe	(peso	2,69%	no	IPCA)
+
+Emplacamento e licença e Conselho de classe são itens administrados cujo reajuste é conhecido na primeira 
+divulgação do ano e é distribuído linearmente pelos próximos 11 meses. Para o médio prazo, supõe-se apenas a 
+inflação passada para a projeção do reajuste. Assim, as equações desses dois itens é a inflação do ano anterior 
+dividida por 4, aplicada no primeiro trimestre e repetida nos 3 trimestres seguintes.
+
+B)	Modelo	genérico	para	os	outros	itens	
+
+Os  demais  itens  de  preços  administrados  foram  divididos  em  dois  grupos,  de  acordo  com  a  presença  ou 
+não de alguma sazonalidade na regra de ajuste. Os itens que têm sazonalidade são modelados segundo a 
+
+15/ Ver Petrobras aprova estratégia comercial de gasolina e diesel, publicado em maio de 2023.
+16/ No jargão do setor, a convergência do crack spread e da defasagem em relação ao PPI.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  83
+
+ 
+ 
+ 
+ 
+    
+equação abaixo, em que as constantes sazonais são uma combinação de estimação com amostra desde 2020 
+e julgamento: 
+
+Para os demais itens, utiliza-se a equação abaixo:
+
+C) Funções resposta ao impulso
+
+Esta seção busca ilustrar a resposta da inflação de administrados a choques, por meio de funções de resposta 
+ao impulso (IRFs). Em particular, escolheu-se choque em quatro variáveis: taxa de câmbio, preço do petróleo, 
+inflação de livres e IVDA. As três primeiras variáveis são importantes componentes na modelagem de diversos 
+preços administrados e, portanto, têm impacto mais disseminado, enquanto a última é um item bem específico, 
+com efeitos mais limitados sobre os demais.  Para capturar o efeito completo de um choque, mesmo que seja 
+em alguma variável específica, é necessário levar em conta os efeitos de feedback. Assim, para computar as 
+IRFs mencionadas, o modelo de administrados é combinado com os modelos semiestruturais de pequeno 
+porte, tanto com o modelo agregado como com o desagregado.17 Os pesos dos itens administrados no IPCA 
+foram calibrados de acordo com os valores observados no IPCA de maio de 2025, divulgado pelo IBGE em 
+10 de junho de 2025.
+
+A rigor, como existe padrão sazonal nos reajustes de boa parte dos preços administrados, a resposta depende 
+do trimestre em que o choque ocorre. Por simplicidade, preferiu-se apresentar as IRFs das versões linearizadas 
+do modelo de administrados, que resumem o comportamento do modelo e permitem compreender os canais 
+de transmissão dos choques.
+
+As IRFs apresentadas a seguir foram computadas sem reação de política monetária, ou seja, com a taxa de 
+juros Selic mantida inalterada durante todo o horizonte do exercício. Esse procedimento permite visualizar 
+mais claramente os canais de transmissão dos choques caso não houvesse reação da autoridade monetária.
+
+a)	
+
+Choque	na	taxa	de câmbio
+
+Esse exercício verifica o que ocorre com a projeção para os preços administrados após uma alta permanente 
+de 10% na taxa de câmbio do real em relação ao dólar. Após 4 trimestres, os preços administrados atingem o 
+efeito máximo de cerca de 1,8 p.p. na taxa acumulada em 4 trimestres (Gráficos 2a e 2b). Também há repasse 
+de câmbio para os preços livres, que atingem o efeito máximo de cerca de 0,70 p.p. no acumulado em 4 
+trimestres, tanto no modelo agregado quanto no desagregado. Repare que o impacto em preços administrados 
+vem sobretudo pelos itens mais sensíveis ao câmbio, como combustíveis, medicamentos e energia elétrica. 
+Nos demais itens (por exemplo, plano de saúde), os efeitos são indiretos via indexação da inflação passada. 
+Para o IPCA, a alta de 10% no câmbio leva a alta de 1 p.p. após 4 trimestres.
+
+17/ Ver o boxe Atualização dos modelos semiestruturais de pequeno porte, do Relatório de Inflação de junho de 2024.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  84
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gráfico 2a – Resposta da inflação ao choque no 
+câmbio
+Inflação acumulada em quatro trimestres (p.p.)
+
+2,0
+1,8
+1,6
+1,4
+1,2
+1,0
+0,8
+0,6
+0,4
+0,2
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA (agreg)
+Adm (desag)
+
+Trimestres
+
+IPCA (desag)
+Livres (agreg)
+
+Adm (agreg)
+Livres (desag)
+
+b) 
+
+Choque no preço do petróleo
+
+Gráfico 2b – Resposta de itens selecionados ao 
+choque no câmbio
+Inflação acumulada em quatro trimestres (p.p.)
+
+6,0
+
+5,0
+
+4,0
+
+3,0
+
+2,0
+
+1,0
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+10 11 12 13 14 15 16
+
+7
+
+9
+
+8
+Trimestres
+
+Gasolina (desag)
+Plano saúde (desag)
+Energia Elet (desag)
+Medicamentos (desag)
+
+Gasolina (agreg)
+Plano saúde (agreg)
+Energia Elet (agreg)
+Medicamentos (agreg)
+
+Uma alta permanente de 10% no preço do Brent em dólares leva a aumento de cerca 1,3 p.p. nos preços 
+administrados (Gráficos 3a e 3b). O preço do petróleo afeta diretamente a formação de preços de gasolina, 
+gás de botijão, óleo diesel, gás encanado e gás veicular. No entanto, o repasse para cada um desses preços 
+depende da dinâmica individual. O preço do petróleo tem mais impacto sobre o preço do óleo diesel, uma 
+vez que a parcela de impostos do óleo diesel é menor. Note, entretanto, que o peso do óleo diesel no IPCA 
+é bem inferior ao da gasolina (0,25% versus 5,24%). Para a gasolina, o repasse acumulado é de cerca de 50% 
+no 4º trimestre e para o gás de botijão fica na faixa de 20%. O gás de botijão tem repasse menor porque, 
+dada a característica do produto, o custo de distribuição e comercialização é proporcionalmente muito maior.
+
+Gráfico 3a – Resposta de inflação ao choque em preço 
+do petróleo
+Inflação acumulada em quatro trimestres (p.p.)
+
+Gráfico 3b – Resposta de itens selecionados ao 
+choque no petróleo
+Inflação acumulada em quatro trimestres (p.p.)
+
+7,0
+
+6,0
+
+5,0
+
+4,0
+
+3,0
+
+2,0
+
+1,0
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA (agreg)
+Adm (desag)
+
+Trimestres
+
+IPCA (desag)
+Livres (agreg)
+
+Adm (agreg)
+Livres (desag)
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+Trimestres
+
+Gasolina (agreg)
+
+Gasolina (desag)
+
+Gás de botijão (agreg)
+
+Gás de botijão (desag)
+
+Óleo diesel (agreg)
+
+Óleo diesel (desag)
+
+c)	
+
+Choque	na	inflação	de	preços	de	livres
+
+Um choque de 1,0 p.p. na inflação de preços livres também afeta os preços administrados (Gráficos 4a e 4b). 
+Neste caso, o choque é aplicado na curva de Phillips (na de preços livres, no caso do modelo agregado, e 
+igualmente nas curvas de Phillips de serviços, bens industriais e alimentação no domicílio, no caso do modelo 
+desagregado). O principal canal de transmissão da inflação de preços livres para administrados é indireto 
+via indexação à inflação passada.  Note que a resposta da gasolina é pouco afetada pelo choque, pois esse 
+item  possui  menos  indexação  à  inflação  passada.  Por  outro  lado,  plano  de  saúde  apresenta  uma  reação 
+mais elevada e defasada, pela inércia alta da sua regra de indexação. De maneira geral, os mecanismos de 
+indexação dos preços administrados fazem com que seu índice agregado responda de forma mais defasada 
+e mais persistente do que os preços livres. Cinco trimestres após o choque, quando o efeito sobre a inflação 
+acumulada em 4 trimestres dos preços livres já está se dissipando, a resposta da inflação de administrados 
+supera a de livres.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  85
+
+1,6
+
+1,4
+
+1,2
+
+1,0
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+
+0,0
+
+          
+        
+Gráfico 4a – Resposta da inflação ao choque na 
+inflação de preços livres
+Inflação acumulada em quatro trimestres (p.p.)
+
+2,0
+1,8
+1,6
+1,4
+1,2
+1,0
+0,8
+0,6
+0,4
+0,2
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA (agreg)
+Adm (desag)
+
+Trimestres
+
+IPCA (desag)
+Livres (agreg)
+
+Adm (agreg)
+Livres (desag)
+
+d) 
+
+Choque no IVDA
+
+Gráfico 4b – Resposta de itens selecionados ao 
+choque em preços livres
+Inflação acumulada em quatro trimestres (p.p.)
+
+1,6
+1,4
+1,2
+1,0
+0,8
+0,6
+0,4
+0,2
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+Trimestres
+
+Gasolina (agreg)
+Plano saúde (agreg)
+Energia Elet (agreg)
+Medicamentos (agreg)
+
+Gasolina (desag)
+Plano saúde (desag)
+Energia Elet (desag)
+Medicamentos (desag)
+
+Para ilustrar como um choque idiossincrático em um item particular dos preços administrados se propaga 
+para os demais itens do IPCA, apresenta-se um exercício em que o IVDA aumenta 1 p.p. Como o IVDA entra 
+na regra de reajuste dos planos de saúde com peso 0,8, o impacto acumulado após 4 trimestres sobre o preço 
+dos planos de saúde atinge 0,8 p.p., aumentando diretamente o índice de inflação de preços administrados 
+(elevação de 0,14 p.p.) e indiretamente o índice de preços livres via indexação (máximo de 0,02 p.p. após 8 
+trimestres). Assim, o efeito do choque sobre o IPCA total é sobretudo direto, com impacto máximo de 0,04 
+p.p. após 4 trimestres.
+
+Gráfico 5a – Resposta da inflação ao choque no IVDA
+Inflação acumulada em quatro trimestres (p.p.)
+
+0,16
+
+0,14
+
+0,12
+
+0,10
+
+0,08
+
+0,06
+
+0,04
+
+0,02
+
+0,00
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+IPCA (agreg)
+Adm (desag)
+
+Trimestres
+
+IPCA (desag)
+Livres (agreg)
+
+Adm (agreg)
+Livres (desag)
+
+D)	Considerações	finais
+
+Gráfico 5b – Resposta do item "Plano de Saúde" ao 
+choque no IVDA
+Inflação acumulada em quatro trimestres (p.p.)
+
+0,9
+
+0,8
+
+0,7
+
+0,6
+
+0,5
+
+0,4
+
+0,3
+
+0,2
+
+0,1
+
+0,0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Trimestres
+
+Plano de saúde (agreg)
+
+Plano de saúde (desag)
+
+Os modelos de preços administrados apresentados neste boxe buscam sintetizar as dinâmicas e metodologias 
+de  formação  dos  preços  administrados  no  Brasil.  É  importante  ressaltar  que  as  especificações  possuem 
+simplificações relevantes para o curto prazo, mas que são aceitáveis para a dinâmica de convergência de 
+médio prazo. Em contextos em que há informações disponíveis para projeções mais distantes, o horizonte 
+considerado pelos especialistas pode ser estendido18, incorporando tais elementos na análise dos cenários.
+
+Ressalta-se ainda que os modelos descritos estão em constante processo de evolução. Alterações incrementais 
+podem ser implementadas tempestivamente à medida que se identificam mudanças nos mecanismos de 
+reajuste e nas metodologias de cálculo. Esse processo contínuo permite incorporar novos dados e ajustar 
+
+18/ Ou eventualmente encurtado se a avaliação indicar que não há vantagem informacional do especialista.
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  86
+
+          
+        
+as  especificações  para  refletir  as  melhores  condições  vigentes  a  fim  de  construir  cenários  de  projeções 
+consistentes e relevantes.
+
+Tabela-resumo:	Equações	para	os	itens	administrados
+
+Na tabela abaixo, juntamente com o nome do item administrado, são informados também seus respectivos 
+código e peso na composição do IPCA. O peso é o valor divulgado para o IPCA de maio de 2025.
+
+Equação
+
+Parâmetros utilizados
+
+Δ𝑀𝑎𝑟𝑔𝑒𝑚𝑡
+
+Nome item 
+administrado
+
+Gasolina
+(cod.5104001) 
+(peso 5,24%)
+
+Plano de saúde 
+(cod.6203) 
+(peso 4,06%)
+
+Energia  
+elétrica  
+residencial
+(cod.2202003) 
+(peso 3,78%)
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  87
+
+      
+Produtos  
+farmacêuticos 
+(cod.6101) 
+(peso 3,46%)
+
+𝐹𝑎𝑡𝑜𝑟 𝑌𝑡
+
+𝐸𝑚𝑝𝑙𝑎𝑐𝑎𝑚𝑒𝑛𝑡𝑜
+
+𝜋𝑡
+
+Emplacamento 
+e licença 
+(cod.5102004) 
+(peso 2,69%)
+
+Taxa de água e 
+esgoto 
+(cod.2101004) 
+(peso 1,84%)
+
+Gás de botijão 
+(cod.2201004) 
+(peso 1,25%)
+
+𝑏𝑜𝑡𝑖𝑗ã𝑜
+
+Δ𝑀𝑎𝑟𝑔𝑒𝑚𝑡
+
+Ônibus urbano 
+(cod.5101001) 
+(peso 1,12%)
+
+Jogos de azar 
+(cod.7201063) 
+(peso 0,44%)
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  88
+
+ 
+            
+Ônibus 
+intermunicipal 
+(cod.5101006) 
+(peso 0,41%)
+
+Óleo diesel 
+(cod.5104003) 
+(peso 0,25%)
+
+Plano de  
+telefonia fixa
+(cod.9101002) 
+(peso 0,22%)
+
+Táxi 
+(cod.5101002) 
+(peso 0,20%)
+
+Gás encanado 
+(cod.2201005) 
+(peso 0,15%)
+
+Ônibus 
+interestadual 
+(cod.5101007) 
+(peso 0,11%)
+
+Multa 
+(cod.5102006) 
+(peso 0,088%)
+
+Pedágio 
+(cod.5102015) 
+(peso 0,087%)
+
+𝐺á𝑠 𝑒𝑛𝑐𝑎𝑛𝑎𝑑𝑜
+
+𝜋𝑡
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  89
+
+     
+                 
+                  
+        
+Gás veicular 
+(cod.5104005) 
+(peso 0,070%)
+
+𝐺á𝑠 𝑣𝑒𝑖𝑐𝑢𝑙𝑎𝑟
+
+𝜋𝑡
+
+Metrô 
+(cod.5101011) 
+(peso 0,066%)
+
+Correio 
+(cod.9101001) 
+(peso 0,065%)
+
+Integração 
+transporte  
+público 
+(cod.5101053) 
+(peso 0,052%)
+
+Conselho de 
+classe 
+(cod.7101090) 
+(peso 0,048%)
+
+Trem 
+(cod.5101004) 
+(peso 0,038%)
+
+Cartório 
+(cod.7101034) 
+(peso 0,023%)
+
+𝐶𝑜𝑛𝑠𝑒𝑙ℎ𝑜 𝑑𝑒 𝑐𝑙𝑎𝑠𝑠𝑒
+
+𝜋𝑡
+
+Junho 2025  \  Banco Central do Brasil  \  Relatório de Política Monetária  \  90
+
+            
+   
+  
+     
+

@@ -1,0 +1,92 @@
+exchange-rate start R$5.05/US$ (PTAX average 2026-10-09..2026-10-23 = 5.0352)
+administered prices from the Focus survey (2026-10-23): {2026: 4.7973, 2027: 3.9896, 2028: 3.63}
+Focus 2026-10-23: Selic per meeting {'R6/2028': 10.25, 'R5/2028': 10.5, 'R4/2028': 10.75, 'R3/2028': 11.0, 'R2/2028': 11.25, 'R1/2028': 11.5, 'R8/2027': 11.75, 'R7/2027': 11.75, 'R6/2027': 12.0, 'R5/2027': 12.0, 'R4/2027': 12.25, 'R3/2027': 12.5, 'R2/2027': 12.75, 'R1/2027': 13.0, 'R8/2026': 13.25, 'R7/2026': 13.5}
+Focus end-year Selic {2026: 13.25, 2027: 11.75, 2028: 10.0, 2029: 10.0, 2030: 10.0}; IPCA {2026: 5.1891, 2027: 4.3368, 2028: 3.75, 2029: 3.5, 2030: 3.5}; GDP {2026: 1.8, 2027: 1.3145, 2028: 1.81, 2029: 2.0, 2030: 2.0}
+settings: {'neutral_rate': 5.0, 'climate': 'realtime', 'climate_index': 'oni', 'coefficients': 'estimated', 'gap_anchor': 'rpm', 'adm_profile': 'uniform', 'nowcast': 'focus'}
+Focus 2026-10-23: Selic per meeting {'R6/2028': 10.25, 'R5/2028': 10.5, 'R4/2028': 10.75, 'R3/2028': 11.0, 'R2/2028': 11.25, 'R1/2028': 11.5, 'R8/2027': 11.75, 'R7/2027': 11.75, 'R6/2027': 12.0, 'R5/2027': 12.0, 'R4/2027': 12.25, 'R3/2027': 12.5, 'R2/2027': 12.75, 'R1/2027': 13.0, 'R8/2026': 13.25, 'R7/2026': 13.5}; end-year {2026: 13.25, 2027: 11.75, 2028: 10.0, 2029: 10.0, 2030: 10.0}
+expected Selic 12m at F: 12.69; 12m inflation expectation: 4.53; STEO vintage oct26; Brent at F 121.0
+cut-offs: {'q0': '2026Q4', 'ipca': '2026-09', 'icbr': '2026-09', 'nuci': '2026-10', 'pnadc': '2026-09', 'caged': '2026-09', 'fiscal': '2026-09', 'gdp': '2026Q2', 'oecd': '2026Q2', 'oni': '2026Q3'}
+nowcast months: ['2026-10', '2026-11', '2026-12']
+
+State at the origin (2026Q4): output gap 0.35%, neutral real rate 5.47%, 12-month inflation expectations 4.53%, expected Selic 12m 12.69%
+Brent at the Focus date 121.0 US$/bbl (STEO vintage oct26); ONI nowcast 1.71
+Nowcast months (Focus headline, administered assumption):
+         ipca   liv   mon                                        source
+data                                                                   
+2026-10  0.28  0.33  0.15  nowcast (Focus headline, Copom administered)
+2026-11  0.33  0.39  0.15  nowcast (Focus headline, Copom administered)
+2026-12  0.58  0.73  0.15  nowcast (Focus headline, Copom administered)
+
+Projections in the Copom's format (IPCA accumulated over the calendar year / four quarters, %), UNADJUSTED model output:
+        IPCA  IPCA livres  IPCA administrados
+2026     5.2          5.3                 4.8
+2027     4.2          4.3                 4.0
+2028     2.8          2.5                 3.6
+2028Q2   3.1          2.8                 3.8
+
+ADJUSTED output (minus the model's error at meeting 281: {'current year': 0.12, 'next year': 0.31, 'relevant horizon': 0.17}):
+        IPCA  IPCA livres  IPCA administrados
+2026     5.1          5.2                 4.8
+2027     3.9          3.9                 4.0
+2028     2.5          2.2                 3.6
+2028Q2   2.9          2.6                 3.8
+
+Quarterly path:
+        piL_sa   piL   piA    pi  pi_4q  piL_4q  piA_4q     h   pie  selic_pct    de      source
+2024Q4    1.82  2.09 -0.34  1.47    NaN     NaN     NaN  0.85  4.20      11.27  5.12     history
+2025Q1    1.36  2.11  1.76  2.02    NaN     NaN     NaN  0.88  5.24      13.06  0.26     history
+2025Q2    0.86  0.68  1.65  0.93    NaN     NaN     NaN  0.72  4.77      14.58 -3.23     history
+2025Q3    1.00  0.19  1.91  0.63   5.17    5.20    5.10  0.51  4.35      15.00 -3.91     history
+2025Q4    0.76  0.85 -0.17  0.60   4.26    3.90    5.28  0.38  4.01      15.00 -0.98     history
+2026Q1    0.99  1.88  1.91  1.90   4.14    3.67    5.44  0.46  3.92      14.96 -2.56     history
+2026Q2    1.36  1.30  1.72  1.41   4.64    4.31    5.52  0.50  3.97      14.54 -4.07     history
+2026Q3    1.41  0.55  0.59  0.57   4.58    4.68    4.14  0.42  4.27      14.06  1.71     history
+2026Q4    1.56  1.45  0.46  1.19   5.19    5.31    4.80  0.35  4.43      13.54 -1.64     nowcast
+2027Q1    1.53  2.43  0.98  2.05   5.35    5.89    3.82  0.34  4.13      13.04  0.26  projection
+2027Q2    1.24  1.17  0.98  1.12   5.04    5.76    3.05  0.32  3.86      12.54  0.25  projection
+2027Q3    0.91  0.04  0.98  0.29   4.76    5.23    3.45  0.28  3.64      12.10  0.25  projection
+2027Q4    0.67  0.56  0.98  0.67   4.21    4.29    3.99  0.23  3.47      11.82  0.25  projection
+2028Q1    0.65  1.55  0.89  1.38   3.51    3.38    3.90  0.19  3.34      11.52  0.25  projection
+2028Q2    0.66  0.59  0.89  0.67   3.05    2.78    3.81  0.15  3.24      11.11  0.25  projection
+2028Q3    0.67 -0.19  0.89  0.09   2.85    2.54    3.72  0.12  3.17      10.53  0.25  projection
+2028Q4    0.68  0.56  0.89  0.65   2.83    2.55    3.63  0.09  3.12      10.22  0.25  projection
+2029Q1    0.69  1.59  0.89  1.41   2.86    2.59    3.63  0.05  3.11      10.17  0.25  projection
+2029Q2    0.71  0.64  0.89  0.71   2.90    2.63    3.63  0.02  3.14      10.12  0.25  projection
+2029Q3    0.72 -0.14  0.89  0.13   2.94    2.69    3.63 -0.01  3.20      10.07  0.25  projection
+2029Q4    0.74  0.63  0.89  0.70   2.99    2.76    3.63 -0.03  3.27      10.02  0.25  projection
+
+Uncertainty bands for the four-quarter IPCA (%):
+          p5   p25   p50   p75   p95
+2027Q1  4.82  5.10  5.35  5.56  5.91
+2027Q2  4.18  4.65  5.03  5.42  6.01
+2027Q3  3.52  4.20  4.74  5.25  6.18
+2027Q4  2.62  3.49  4.21  4.88  6.16
+2028Q1  1.73  2.64  3.50  4.31  5.53
+2028Q2  1.08  2.17  3.01  3.89  5.25
+2028Q3  0.72  1.87  2.84  3.80  4.92
+2028Q4  0.64  1.86  2.83  3.85  5.07
+2029Q1  0.51  1.90  2.82  3.85  5.25
+2029Q2  0.55  1.81  2.87  3.95  5.53
+2029Q3  0.45  1.79  2.92  4.06  5.70
+2029Q4  0.28  1.83  2.99  4.16  5.82
+        smoothed  filtered  bcb  fpib  nuci_implied  emp_implied  caged_implied   gap    p5   p95
+2025Q2      0.74      0.72  0.7  0.99          1.70         3.97           1.82   NaN   NaN   NaN
+2025Q3      0.56      0.51  0.5  0.48          1.17         4.30           1.25   NaN   NaN   NaN
+2025Q4      0.45      0.38  0.4  0.11          0.31         4.38           0.32   NaN   NaN   NaN
+2026Q1      0.50      0.46  0.5  0.58          0.90         4.33           0.55   NaN   NaN   NaN
+2026Q2      0.50      0.50  0.5  0.47          1.53          NaN           0.38   NaN   NaN   NaN
+2026Q3      0.42      0.42  0.4   NaN          1.53          NaN            NaN   NaN   NaN   NaN
+2026Q4      0.35      0.35  NaN   NaN           NaN          NaN            NaN   NaN   NaN   NaN
+2027Q1       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.34 -0.55  1.32
+2027Q2       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.32 -0.95  1.69
+2027Q3       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.28 -1.28  1.86
+2027Q4       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.23 -1.66  2.15
+2028Q1       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.19 -1.97  2.37
+2028Q2       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.15 -2.32  2.58
+2028Q3       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.12 -2.68  2.57
+2028Q4       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.09 -2.70  2.59
+2029Q1       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.05 -2.70  2.65
+2029Q2       NaN       NaN  NaN   NaN           NaN          NaN            NaN  0.02 -2.86  2.70
+2029Q3       NaN       NaN  NaN   NaN           NaN          NaN            NaN -0.01 -2.95  2.53
+2029Q4       NaN       NaN  NaN   NaN           NaN          NaN            NaN -0.03 -2.98  2.84
+saved outputs with tag 20261104

@@ -1,0 +1,3 @@
+Selic +1pp for 4 quarters: IPCA 4q (free-price channel only) min -0.142 pp at q4; with administered add-on -0.208 pp at q3; free prices 4q min -0.194; gap min -0.22  [BCB: IPCA -0.27 at q4]
+10% depreciation: free prices 4q max 0.492 pp at q3; IPCA 4q (free only) 0.359; with administered add-on 0.805  [BCB: free 0.72, IPCA 0.96]
++1pp gap shock: IPCA 4q max 0.358 pp at q3  [BCB: 0.49]
